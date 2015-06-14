@@ -5,6 +5,21 @@ html, body
 
 body
 {
-	background-color: #B2FFFF;
+	background-color: #6ac8cb;
 	font-family: 'Open Sans', sans-serif;
+}
+
+div.loading-page
+{
+	background-color: #6ac8cb;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+div.loading-page div.loading-text
+{
+	text-transform: uppercase;
 }
