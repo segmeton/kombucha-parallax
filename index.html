@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/loading-page.css">
     <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/menu.css">
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Kombucamp</title>
 </head>
 <body class="disable-scroll">
 	<div class="page intro-page">
+		<div class="cloud cloud-left"><img src="asset/awan-2.png"></div>
+		<div class="cloud cloud-right"><img src="asset/awan-1.png"></div>
 		<div class="intro-page-content">
 			<div class="intro-image">
 				<img src="asset/logo.png" height="909" width="1012" alt="kobucamp-logo" title="Kombucamp" class="logo">
@@ -29,15 +31,81 @@
 			</div>
 		</div>
 		<div class="arrow-down">
-			<a href="" class="arrow-down-button">
+			<a href="#" class="arrow-down-button" data-target="menu-bar">
 				<i class="fa fa-chevron-down"></i>
 			</a>
 		</div>
 	</div>
-	<div class="page chapter-one">
-		<h1>Chapter One</h1>
+	<div class="menu-bar">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-1">
+					<div class="logo">
+						<img src="asset/menu-bar/logo-icon.png">
+					</div>
+				</div>
+				<div class="col-xs-11">
+					<ul class="menu">
+						<li class="dropdown">
+							<span>choose chapter</span>
+							<ul class="dropdown-menu sub-menu">
+								<li>
+									<a href="#" data-target="chapter-one-page">1. intro : teh kombucha (tk)</a>
+								</li>
+								<li>
+									<a href="#">2. manfaat kombucha</a>
+								</li>
+								<li>
+									<a href="#">3. cara pembuatan tk</a>
+								</li>
+								<li>
+									<a href="#">4. dosis meminum tk</a>
+								</li>
+								<li>
+									<a href="#">5. kasus tentang tk</a>
+								</li>
+								<li>
+									<a href="#">6. let's be healthy together</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">about</a>
+						</li>
+						<li>
+							<a href="http://www.facebook.com">
+								<i class="fa fa-facebook-official"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</div>
-	<div class="loading-page hide">
+	<div class="page chapter-one-page">
+		<div class="chapter-one-page-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="description">
+							<p>
+								Teh kombucha sudah ada &amp; dikenal sejak lebih dari 2000 tahun yang lalu. Rendaman teh manis dengan jamur kombu- cha (SCOBY) yang difermentasi ini sering dijuluki sebagai " Tea of Immortality / Teh Keabadian " oleh banyak orang karena oleh khasiatnya dalam menyembuhkan berbagai penyakit dan dalam menjaga kesehatan tubuh.
+							</p>
+							<p>
+								Memiliki rasa asam yang menyegarkan serta berkarbTo- nasi (soda) yang menyenangkan saat diminum. dan yang paling penting menyehatkan bagi tubuh kita.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="loading-page">
 		<div class="loading-page-content">
 			<div class="loading-image">
 				<img class="loading-still" src="asset/loading-page/scoby-load-diam.png">
@@ -55,7 +123,11 @@
 	</div>
 	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/ScrollToPlugin.min.js"></script>
 	<script type="text/javascript" src="js/ScrollMagic.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
+	<script type="text/javascript" src="js/animation.gsap.js"></script>
+	<script type="text/javascript" src="js/jquery.gsap.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

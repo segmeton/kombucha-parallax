@@ -1,14 +1,41 @@
 /* Intro Page */
 
+div.intro-page
+{
+	position: relative;
+}
+
+div.intro-page div.cloud
+{
+	position: absolute;
+}
+
+div.intro-page div.cloud-left
+{
+	bottom: 25%;
+}
+
+div.intro-page div.cloud-right
+{
+	right: 0;
+	top: 40%;
+}
+
+div.intro-page div.cloud img
+{
+	width: 500px;
+}
+
 div.intro-page-content
 {
 	text-align: center;
+	z-index: 999;
 }
 
 div.intro-image img.logo
 {
-	height: 250px;
 	width: 280px;
+	height: auto;
 }
 
 div.intro-text
@@ -133,3 +160,4 @@ div.arrow-down a.arrow-down-button
 		-ms-transform: translate(0px,0px);
 	}
 }
+
