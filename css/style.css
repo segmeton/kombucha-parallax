@@ -6,20 +6,12 @@ html, body
 body
 {
 	background-color: #6ac8cb;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ClaireHand', sans-serif;
+	font-size: 2em;
 }
 
-div.loading-page
+.disable-scroll
 {
-	background-color: #6ac8cb;
-	position: absolute;
-	width: 100%;
 	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-div.loading-page div.loading-text
-{
-	text-transform: uppercase;
+	overflow: hidden;
 }

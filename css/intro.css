@@ -1,0 +1,135 @@
+/* Intro Page */
+
+div.intro-page-content
+{
+	text-align: center;
+}
+
+div.intro-image img.logo
+{
+	height: 250px;
+	width: 280px;
+}
+
+div.intro-text
+{
+	width: 525px;
+	margin: auto;
+	color: #fff;
+}
+
+div.intro-text h1, div.intro-text h3
+{
+	text-transform: uppercase;
+	margin-top: 40px;
+}
+
+div.intro-text h1
+{
+	color: #edcb5d;
+	font-size: 2.5em;
+}
+
+div.intro-text h3
+{
+	width: 90%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+div.intro-text p
+{
+	font-family: 'Signika';
+}
+
+div.arrow-down
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+}
+
+div.arrow-down a.arrow-down-button
+{
+	text-decoration: none;
+	color: #edcb5d;
+	font-size: 2em;
+	animation: bouncingArrow linear 1s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	-webkit-animation: bouncingArrow linear 1s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-moz-animation: bouncingArrow linear 1s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 50%;
+	-o-animation: bouncingArrow linear 1s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 50%;
+	-ms-animation: bouncingArrow linear 1s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
+}
+
+@keyframes bouncingArrow {
+	0% {
+		transform: translate(0px,0px);
+	}
+	50% {
+		transform: translate(0px,-25px);
+	}
+	100% {
+		transform: translate(0px,0px);
+	}
+}
+
+@-moz-keyframes bouncingArrow {
+	0% {
+		-moz-transform: translate(0px,0px);
+	}
+	50% {
+		-moz-transform: translate(0px,-25px);
+	}
+	100% {
+		-moz-transform: translate(0px,0px);
+	}
+}
+
+@-webkit-keyframes bouncingArrow {
+	0% {
+		-webkit-transform: translate(0px,0px);
+	}
+	50% {
+		-webkit-transform: translate(0px,-25px;
+	}
+	100% {
+		-webkit-transform: translate(0px,0px);
+	}
+}
+
+@-o-keyframes bouncingArrow {
+	0% {
+		-o-transform: translate(0px,0px);
+	}
+	50% {
+		-o-transform: translate(0px,-25px);
+	}
+	100% {
+		-o-transform: translate(0px,0px);
+  }
+}
+
+@-ms-keyframes bouncingArrow {
+	0% {
+		-ms-transform: translate(0px,0px);
+	}
+	50% {
+		-ms-transform: translate(0px,-25px);
+	}
+	100% {
+		-ms-transform: translate(0px,0px);
+	}
+}
