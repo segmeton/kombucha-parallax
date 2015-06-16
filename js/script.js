@@ -47,6 +47,8 @@ function arrowDown()
 
 function parallax()
 {
+	$('ul.clouds').parallax();
+	
 	var scrollMagicController = new ScrollMagic.Controller();
 
     var intro = new ScrollMagic.Scene({
@@ -55,8 +57,12 @@ function parallax()
     .addTo(scrollMagicController);
 
     var menu = new ScrollMagic.Scene({
-        triggerElement: 'div.menu-bar'
+        triggerElement: 'div.menu-bar',
+        triggerHook: 0,
+        pushFollowers: false,
+        reverse: true
     })
+    .setPin("div.menu-bar")
     .addTo(scrollMagicController);
 
     var chapterOne = new ScrollMagic.Scene({

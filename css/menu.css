@@ -5,6 +5,7 @@ div.menu-bar
 	background-color: #fff;
 	text-transform: uppercase;
 	font-size: 1.5em;
+	z-index: 9999;
 }
 
 div.menu-bar div.logo

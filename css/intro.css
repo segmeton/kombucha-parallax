@@ -5,23 +5,32 @@ div.intro-page
 	position: relative;
 }
 
-div.intro-page div.cloud
+div.intro-page ul.clouds
 {
 	position: absolute;
+	padding-left: 0;
+	margin-bottom: 0;
+	width: 100%;
+	height: 100%;
 }
 
-div.intro-page div.cloud-left
+div.intro-page ul.clouds li.cloud
+{
+	/*position: absolute;*/
+}
+
+div.intro-page ul.clouds li.cloud-left
 {
 	bottom: 25%;
 }
 
-div.intro-page div.cloud-right
+div.intro-page ul.clouds li.cloud-right
 {
 	right: 0;
 	top: 40%;
 }
 
-div.intro-page div.cloud img
+div.intro-page ul.clouds li.cloud img
 {
 	width: 500px;
 }
