@@ -99,6 +99,9 @@ function menuRedirect()
 	{
 		e.preventDefault();
 		var target = $(this).data('target');
+		$('div.menu-bar ul.menu li').removeClass('active');
+		$(this).parent().addClass('active');
+		$('div.menu-bar div.section-title span').html($(this).html())
 		scrollTo(target);
 	});
 }

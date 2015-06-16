@@ -1,0 +1,61 @@
+/* footer */
+
+div.footer
+{
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #fccc49;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+div.footer div.logo-indo-kombucha img
+{
+	width: 400px;
+	height: auto;
+}
+
+div.red-capsule
+{
+	border-radius: 100px;
+	background-color: #d85b72;
+	color: #fff;
+	padding: 25px;
+	padding-top: 35px;
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+div.red-capsule div.indokombucha-link a
+{
+	font-size: 1em;
+	color: #fccc49;
+	text-decoration: none;
+	font-family: "Signika";
+}
+
+div.blue-capsule
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.blue-capsule a
+{
+	color: #fff;
+	padding: 25px;
+	background-color: #4a6bb7;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 25px 35px;
+	padding-top: 30px;
+}
+
+div.copyright
+{
+	font-family: "Signika";
+	font-size: 1em;
+	background-color: #fff;
+	padding: 15px;
+}
