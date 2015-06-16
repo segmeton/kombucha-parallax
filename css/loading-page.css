@@ -9,6 +9,10 @@ div.loading-page
 	top: 0;
 	left: 0;
 	text-align: center;
+	-webkit-transition: top 500ms ease-out 1s;
+    -moz-transition: top 500ms ease-out 1s;
+    -o-transition: top 500ms ease-out 1s;
+    transition: top 500ms ease-out 1s;
 }
 
 div.loading-image

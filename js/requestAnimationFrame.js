@@ -4,7 +4,7 @@
  * @author Paul Irish
  * @see https://gist.github.com/paulirish/1579671
  */
-;(function() {
+(function() {
 
   var lastTime = 0;
   var vendors = ['ms', 'moz', 'webkit', 'o'];

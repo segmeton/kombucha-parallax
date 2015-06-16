@@ -16,7 +16,9 @@
 		{
 			$('html').removeClass('disable-scroll');
 			$('body').removeClass('disable-scroll');
-			$('div.loading-page').addClass('hide');
+			var height = $(window).height();
+			$('div.loading-page').css('top', -height+'px');
+			// $('div.loading-page').addClass('hide');
 		},5000);
 	});
 
