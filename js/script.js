@@ -4,6 +4,8 @@
     {   
         $("div.intro-page").css("height",$(window).height());
         $("div.chapter-one-page").css("height",$(window).height());
+        var padding = $('div.menu-bar').height();
+        $('div.page').css('padding-top', padding);
 		parallax();
 		marginPage('loading');
 		marginPage('intro');
@@ -49,7 +51,11 @@ function arrowDown()
 
 function parallax()
 {
-	$('ul.clouds').parallax();
+	$('ul.clouds').parallax
+	({
+		// scalarX: 20,
+  // 		scalarY: 60
+	});
 	
 	var scrollMagicController = new ScrollMagic.Controller();
 
