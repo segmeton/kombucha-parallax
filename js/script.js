@@ -2,10 +2,12 @@
 {
     $(document).ready(function()
     {   
-        $("div.intro-page").css("height",$(window).height());
-        $("div.chapter-one-page").css("height",$(window).height());
+    	var windowHeight = $(window).height();
+        $("div.intro-page").css("height", windowHeight);
+        $("div.chapter-one-page").css("height",windowHeight);
         var padding = $('div.menu-bar').height();
         $('div.page').css('padding-top', padding);
+        $('div.footer').css('padding-top', padding+15);
 		parallax();
 		marginPage('loading');
 		marginPage('intro');
@@ -60,9 +62,13 @@ function parallax()
 	var scrollMagicController = new ScrollMagic.Controller();
 
     var intro = new ScrollMagic.Scene({
-        triggerElement: 'div.intro-page'
+        triggerElement: 'div.intro-page',
+        reverse: true
     })
-    .addTo(scrollMagicController);
+    .addTo(scrollMagicController)
+    .on("enter", function (event) {
+    	emptyTitle();
+	});
 
     var menu = new ScrollMagic.Scene({
         triggerElement: 'div.menu-bar',
@@ -74,9 +80,23 @@ function parallax()
     .addTo(scrollMagicController);
 
     var chapterOne = new ScrollMagic.Scene({
-        triggerElement: 'div.chapter-one-page'
+        triggerElement: 'div.chapter-one-page',
+        reverse: true
     })
-    .addTo(scrollMagicController);
+    .addTo(scrollMagicController)
+    .on("enter", function (event) {
+    	var title = $('div.chapter-one-page').data('title');
+    	changeSectionTitle(title);
+	});
+
+    var footer = new ScrollMagic.Scene({
+        triggerElement: 'footer',
+        reverse: true
+    })
+    .addTo(scrollMagicController)
+    .on("enter", function (event) {
+    	emptyTitle();
+	});
 }
 
 function scrollTo(target)
@@ -101,7 +121,17 @@ function menuRedirect()
 		var target = $(this).data('target');
 		$('div.menu-bar ul.menu li').removeClass('active');
 		$(this).parent().addClass('active');
-		$('div.menu-bar div.section-title span').html($(this).html())
+		changeSectionTitle($(this).html());
 		scrollTo(target);
 	});
+}
+
+function changeSectionTitle(trigger)
+{
+	$('div.menu-bar div.section-title span').html(trigger);
+}
+
+function emptyTitle()
+{
+	$('div.menu-bar div.section-title span').html('');
 }

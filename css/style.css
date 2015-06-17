@@ -22,3 +22,40 @@ div.container
 {
 	width: 90%;
 }
+
+div.intro-page, div.chapter-one-page
+{
+	position: relative;
+}
+
+ul.clouds
+{
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+ul.clouds li
+{
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+ul.clouds div.layer-container
+{
+	position: relative;
+}
+
+ul.clouds div.cloud-right
+{
+	text-align: right;
+}
+

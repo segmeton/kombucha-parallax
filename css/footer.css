@@ -37,8 +37,9 @@ div.red-capsule div.indokombucha-link a
 
 div.blue-capsule
 {
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	position: relative;
 }
 
 div.blue-capsule a
@@ -50,6 +51,32 @@ div.blue-capsule a
 	text-decoration: none;
 	padding: 25px 35px;
 	padding-top: 30px;
+}
+
+div.blue-capsule img.arrow
+{
+	width: 100px;
+	height: auto;
+}
+
+div.blue-capsule img.arrow, div.blue-capsule span.share-message
+{
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+div.blue-capsule span:hover img.arrow, div.blue-capsule span:hover span.share-message
+{
+	display: block;
+}
+
+div.blue-capsule span.share-message
+{
+	font-size: 1.5em;
+	top: 40px;
+	padding-right: 100px;
 }
 
 div.copyright
