@@ -1,0 +1,16 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+	.dropdown-menu > li > a 
+	{
+	    display: inline-block;
+	}
+
+	.dropdown-menu
+	{
+		list-style: none;
+	}
+
+	.dropdown-menu li
+	{
+		list-style-image: url(data:0);
+	}
+}

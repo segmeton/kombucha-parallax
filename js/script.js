@@ -115,7 +115,7 @@ function scrollTo(target)
 
 function menuRedirect()
 {
-	$('div.menu-bar ul.menu a').on('click',function(e)
+	$('div.menu-bar ul.menu ul.dropdown a').on('click',function(e)
 	{
 		e.preventDefault();
 		var target = $(this).data('target');
