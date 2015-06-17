@@ -55,16 +55,42 @@ div.blue-capsule a
 
 div.blue-capsule img.arrow
 {
-	width: 100px;
+	width: 150px;
 	height: auto;
+	left: -100px;
+	top: -60px;
+
+	-webkit-transform: rotate(-10deg);
+	-moz-transform:    rotate(-10deg);
+	-ms-transform:     rotate(-10deg);
+	-o-transform:      rotate(-10deg);
+	transform:         rotate(-10deg);
+
+	animation: facebookArrowAnimation linear 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 100%;
+	-webkit-animation: facebookArrowAnimation linear 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 100%;
+	-moz-animation: facebookArrowAnimation linear 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 100%;
+	-o-animation: facebookArrowAnimation linear 2s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 100%;
+	-ms-animation: facebookArrowAnimation linear 2s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 100%;
 }
 
+div.blue-capsule div.capsule-content > span
+{
+	position: relative;
+} 
 div.blue-capsule img.arrow, div.blue-capsule span.share-message
 {
 	display: none;
 	position: absolute;
-	left: 0;
-	right: 0;
 }
 
 div.blue-capsule span:hover img.arrow, div.blue-capsule span:hover span.share-message
@@ -76,7 +102,8 @@ div.blue-capsule span.share-message
 {
 	font-size: 1.5em;
 	top: 40px;
-	padding-right: 100px;
+	left: -250px;
+	white-space: nowrap;
 }
 
 div.copyright
@@ -85,4 +112,64 @@ div.copyright
 	font-size: 1em;
 	background-color: #fff;
 	padding: 15px;
+}
+
+@keyframes facebookArrowAnimation{
+  0% {
+    transform:  rotate(10deg) ;
+  }
+  50% {
+    transform:  rotate(-10deg) ;
+  }
+  100% {
+    transform:  rotate(10deg) ;
+  }
+}
+
+@-moz-keyframes facebookArrowAnimation{
+  0% {
+    -moz-transform:  rotate(10deg) ;
+  }
+  50% {
+    -moz-transform:  rotate(-10deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(10deg) ;
+  }
+}
+
+@-webkit-keyframes facebookArrowAnimation {
+  0% {
+    -webkit-transform:  rotate(10deg) ;
+  }
+  50% {
+    -webkit-transform:  rotate(-10deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(10deg) ;
+  }
+}
+
+@-o-keyframes facebookArrowAnimation {
+  0% {
+    -o-transform:  rotate(10deg) ;
+  }
+  50% {
+    -o-transform:  rotate(-10deg) ;
+  }
+  100% {
+    -o-transform:  rotate(10deg) ;
+  }
+}
+
+@-ms-keyframes facebookArrowAnimation {
+  0% {
+    -ms-transform:  rotate(10deg) ;
+  }
+  50% {
+    -ms-transform:  rotate(-10deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(10deg) ;
+  }
 }
