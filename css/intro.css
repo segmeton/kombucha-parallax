@@ -70,13 +70,15 @@ div.intro-page-content
 
 div.intro-image img.logo
 {
-	width: 280px;
+	width: 50%;
+	max-width: 280px;
 	height: auto;
 }
 
 div.intro-text
 {
-	width: 525px;
+	width: 80%;
+	max-width: 525px;
 	margin: auto;
 	color: #fff;
 }

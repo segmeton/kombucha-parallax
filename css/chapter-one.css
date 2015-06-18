@@ -1,5 +1,13 @@
 /* Chapter One */
 
+div.chapter-one-page
+{
+	background-image: url('../asset/chapter-one/rope.png');
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	background-position: top center;
+}
+
 div.chapter-one-page ul.clouds div#cloud-one
 {
 	margin-top: 5%;
@@ -13,7 +21,7 @@ div.chapter-one-page ul.clouds div#cloud-one img
 
 div.chapter-one-page ul.clouds div#cloud-two
 {
-	margin-top: 20%;
+	margin-top: 40%;
 	margin-left: -10%;
 }
 
@@ -24,11 +32,35 @@ div.chapter-one-page ul.clouds div#cloud-two img
 
 div.chapter-one-page ul.clouds div#cloud-three
 {
-	margin-top: 25%;
+	margin-top: 50%;
 	margin-right: 10%;
 }
 
 div.chapter-one-page ul.clouds div#cloud-three img
 {
 	width: 40%;
+}
+
+div.chapter-one-page-content div.description p.signika
+{
+	font-family: 'Signika';
+	margin-top: 40%;
+}
+
+div.chapter-one-page-content div.kombucha-img img.photo
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+	top: -250px;
+	left: 600px;
+}
+
+div.chapter-one-page-content div.kombucha-img img.arrow
+{
+	width: 150px;
+	height: auto;
+	position: relative;
+	top: -50px;
+	left: 100px;
 }

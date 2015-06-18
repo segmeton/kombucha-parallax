@@ -4,7 +4,7 @@
     {   
     	var windowHeight = $(window).height();
         $("div.intro-page").css("height", windowHeight);
-        $("div.chapter-one-page").css("height",windowHeight);
+        $("div.chapter-one-page").css("min-height",windowHeight);
         var padding = $('div.menu-bar').height();
         $('div.page').css('padding-top', padding);
         $('div.footer').css('padding-top', padding+15);
@@ -65,10 +65,14 @@ function parallax()
         triggerElement: 'div.intro-page',
         reverse: true
     })
-    .addTo(scrollMagicController)
     .on("enter", function (event) {
     	emptyTitle();
-	});
+	})
+	.on("leave", function (event) {
+    	emptyTitle();
+	})
+    .addTo(scrollMagicController);
+    
 
     var menu = new ScrollMagic.Scene({
         triggerElement: 'div.menu-bar',
@@ -78,25 +82,66 @@ function parallax()
     })
     .setPin("div.menu-bar")
     .addTo(scrollMagicController);
+			
+	var curve = {
+		curviness: 1.25,
+		values: [{x: -600, y: 250}]
+	};
+
+	var kombuchaImage = TweenMax.to
+	(
+		"div.kombucha-img img.photo", 
+		1,
+		{
+			css:{bezier:curve},
+			ease: Circ.easeInOut
+		}
+	);
+
+	// var curveArrow = {
+	// 	curviness: 1.25,
+	// 	values: [{x: 0, y: 0}]
+	// };
+
+	// var arrowImage = TweenMax.to
+	// (
+	// 	"div.kombucha-img img.arrow", 
+	// 	1,
+	// 	{
+	// 		css:{bezier:curveArrow},
+	// 		ease: Circ.easeInOut
+	// 	}
+	// );
 
     var chapterOne = new ScrollMagic.Scene({
         triggerElement: 'div.chapter-one-page',
-        reverse: true
+        reverse: true,
+        triggerHook: 0
     })
-    .addTo(scrollMagicController)
     .on("enter", function (event) {
     	var title = $('div.chapter-one-page').data('title');
     	changeSectionTitle(title);
-	});
+	})
+	.on("leave", function (event) {
+    	var title = $('div.chapter-one-page').data('title');
+    	changeSectionTitle(title);
+	})
+	.setTween(kombuchaImage)
+    .addTo(scrollMagicController);
+    
 
     var footer = new ScrollMagic.Scene({
         triggerElement: 'footer',
         reverse: true
     })
-    .addTo(scrollMagicController)
     .on("enter", function (event) {
     	emptyTitle();
-	});
+	})
+	.on("leave", function (event) {
+    	emptyTitle();
+	})
+    .addTo(scrollMagicController);
+    
 }
 
 function scrollTo(target)
@@ -115,7 +160,7 @@ function scrollTo(target)
 
 function menuRedirect()
 {
-	$('div.menu-bar ul.menu ul.dropdown a').on('click',function(e)
+	$('div.menu-bar ul.menu ul.dropdown-menu a').on('click',function(e)
 	{
 		e.preventDefault();
 		var target = $(this).data('target');
