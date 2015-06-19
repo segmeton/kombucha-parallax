@@ -87,21 +87,16 @@ function parallax()
 		curviness: 1.25,
 		values: [{x: -600, y: 250}]
 	};
+	var curveArrow = {
+		curviness: 1.25,
+		values: [{x: 0, y: 0}]
+	};
 
-	var kombuchaImage = TweenMax.to
-	(
-		"div.kombucha-img img.photo", 
-		1,
-		{
-			css:{bezier:curve},
-			ease: Circ.easeInOut
-		}
-	);
+	var kombuchaImage = TweenMax
+	.to("div.kombucha-img img.photo", 1,{css:{bezier:curve}, ease: Circ.easeInOut});
+	// .to("div.kombucha-img img.arrow", 1,{css:{bezier:curveArrow}, ease: Circ.easeInOut});
 
-	// var curveArrow = {
-	// 	curviness: 1.25,
-	// 	values: [{x: 0, y: 0}]
-	// };
+	
 
 	// var arrowImage = TweenMax.to
 	// (
