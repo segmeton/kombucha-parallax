@@ -4,7 +4,7 @@ div.menu-bar
 {
 	background-color: #fff;
 	text-transform: uppercase;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	z-index: 9999;
 }
 
@@ -15,13 +15,13 @@ div.menu-bar div.logo
 
 div.menu-bar div.logo img
 {
-	width: 100%;
+	width: 50%;
 	height: auto;
 }
 
 div.menu-bar div.section-title
 {
-	padding-top: 25px;
+	padding-top: 13px;
 }
 
 div.menu-bar ul.menu
@@ -33,8 +33,7 @@ div.menu-bar ul.menu
 
 div.menu-bar ul.menu li
 {
-	padding: 20px;
-	padding-top: 25px;
+	padding: 15px;
 }
 
 div.menu-bar ul.menu li:hover,div.menu-bar ul.menu li.active

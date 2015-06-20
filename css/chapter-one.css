@@ -64,3 +64,42 @@ div.chapter-one-page-content div.kombucha-img img.arrow
 	top: -50px;
 	left: 100px;
 }
+
+
+div.rrc
+{
+	width: 80%;
+	margin: auto;
+}
+
+div.rrc > div
+{
+	width: 50%;
+	float: left;
+}
+
+div.rrc-photo img#rrc-map
+{
+	width: 100%;
+	height: auto;
+}
+
+div.rrc-photo img
+{
+	width: 100%;
+	height: auto;
+}
+
+div.rrc div.photo-description
+{
+	background-image: url('../asset/chapter-one/ribbon.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 20px 10% 20px 20px;
+	color: #fff;
+	font-family: "Signika";
+}
+
+
+
