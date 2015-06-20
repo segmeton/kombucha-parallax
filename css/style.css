@@ -59,7 +59,16 @@ ul.clouds div.cloud-right
 	text-align: right;
 }
 
+div.introduction span
+{
+	font-family: "Signika";
+	padding: 15px;
+}
+
 div.introduction span.red
 {
-	
+	color: #fff;
+	background-color: #d85b72;
+	padding-left: 50px;
+	padding-right: 50px;
 }

@@ -1,1 +1,57 @@
 /* Chapter Four */
+
+div.chapter-four-page-content div.introduction
+{
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.chapter-four-page-content h1.instruction
+{
+	color: #d85b72;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+div.chapter-four-page-content div.glass
+{
+	float: left;
+	width: 16.666666666666668%;
+}
+
+div.chapter-four-page-content div.tea-glass
+{
+	text-align: center;
+	position: relative;
+}
+
+div.chapter-four-page-content div.tea-glass img
+{
+	width: 100%;
+	height: auto;
+}
+
+div.chapter-four-page-content div.tea-glass span.volume
+{
+	display: none;
+}
+
+div.chapter-four-page-content div.glass div.description
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	visibility: hidden;
+	margin-top: 15px;
+}
+
+div.chapter-four-page-content div.glass:hover div.description
+{
+	visibility: visible;
+}
+
+div.chapter-four-page-content div.glass div.description span.age
+{
+	color: #d85b72;
+}
+
