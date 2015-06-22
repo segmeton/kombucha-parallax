@@ -119,6 +119,7 @@ function parallax()
     var chapterOne = new ScrollMagic.Scene({
         triggerElement: 'div.chapter-one-page',
         reverse: true,
+        duration: "50%",
         triggerHook: 0
     })
     .on("enter", function (event) {
@@ -131,11 +132,18 @@ function parallax()
 	})
 	.setTween(kombuchaImage)
     .addTo(scrollMagicController);
+
+    var eatDrink = new ScrollMagic.Scene({
+    	triggerElement: "div#sport.healthy-way",
+    	duration: "30%",
+    	triggerHook: 0
+    })
+    .setTween("div.healthy-way-img img#diet-img", 1, {left: 50})
+    .addTo(scrollMagicController);
     
 
     var footer = new ScrollMagic.Scene({
         triggerElement: 'footer',
-        reverse: true
     })
     .on("enter", function (event) {
     	emptyTitle();

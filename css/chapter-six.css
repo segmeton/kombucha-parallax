@@ -1,1 +1,36 @@
 /* Chapter Six */
+
+div.chapter-six-page-content div.introduction
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+div.healthy-way h2.title
+{
+	color: #fff;
+}
+
+div.healthy-way div.description
+{
+	font-family: "Signika";
+	font-size: .8em;
+}
+
+div.healthy-way-img
+{
+	text-align: center;
+}
+
+div.healthy-way-img img
+{
+	width: 80%;
+	height: auto;
+	margin: auto;
+	position: relative;
+}
+
+div.healthy-way-img img#diet-img
+{
+	left: -600px;
+}

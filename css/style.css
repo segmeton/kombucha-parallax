@@ -62,7 +62,8 @@ ul.clouds div.cloud-right
 div.introduction span
 {
 	font-family: "Signika";
-	padding: 15px;
+	padding: 15px;	
+	background-color: #FCCC49;
 }
 
 div.introduction span.red
