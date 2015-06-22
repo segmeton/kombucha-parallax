@@ -1,1 +1,41 @@
 /* Chapter Three */
+
+div.kombucha-procedur h1
+{
+	text-align: center;
+}
+
+div.kombucha-procedur div.slider
+{
+	width: 80%;
+	margin: auto;
+	position: relative;
+}
+
+div.kombucha-procedur div.slide img
+{
+	width: 100%;
+	height: auto;
+}
+
+div.kombucha-procedur div.navigation a
+{
+	position: absolute;
+	top: 35%;
+}
+
+div.kombucha-procedur div.navigation a#left
+{
+	left: -10%;
+}
+
+div.kombucha-procedur div.navigation a#right
+{
+	right: -10%;
+}
+
+div.kombucha-procedur div.navigation img
+{
+	width: 50px;
+	height:auto;
+}

@@ -4,7 +4,7 @@
     {   
     	var windowHeight = $(window).height();
         $("div.intro-page").css("height", windowHeight);
-        $("div.chapter-one-page").css("min-height",windowHeight);
+        $("div.page").css("min-height",windowHeight);
         var padding = $('div.menu-bar').height();
         $('div.page').css('padding-top', padding);
         $('div.footer').css('padding-top', padding+15);
@@ -13,6 +13,7 @@
 		marginPage('intro');
 		arrowDown();
 		menuRedirect();
+		owlCarousel();
     });
 
     $( window ).load(function() {
@@ -181,4 +182,28 @@ function changeSectionTitle(trigger)
 function emptyTitle()
 {
 	$('div.menu-bar div.section-title span').html('');
+}
+
+function owlCarousel()
+{
+	$owl = $("div.kombucha-procedur div.slides");
+
+	$owl.owlCarousel({
+		singleItem:true,
+		pagination: false
+  	});
+
+  	var owlData = $owl.data('owlCarousel');
+
+  	$("div.navigation a#left.navigation-arrow").on("click", function(e)
+  	{
+  		e.preventDefault();
+  		owlData.prev();
+  	});
+
+  	$("div.navigation a#right.navigation-arrow").on("click", function(e)
+  	{
+  		e.preventDefault();
+  		owlData.next();
+  	});
 }

@@ -10,7 +10,7 @@ div.chapter-four-page-content h1.instruction
 {
 	color: #d85b72;
 	margin-top: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	text-align: center;
 }
 
@@ -43,6 +43,9 @@ div.chapter-four-page-content div.glass div.description
 	padding-right: 15px;
 	visibility: hidden;
 	margin-top: 15px;
+	font-family: "Signika";
+	font-size: .9em;
+	font-weight: 700;
 }
 
 div.chapter-four-page-content div.glass:hover div.description
