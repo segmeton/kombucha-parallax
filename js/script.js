@@ -74,13 +74,20 @@ function parallax()
     .addTo(scrollMagicController);
     
 
+    // var menu = new ScrollMagic.Scene({
+    //     triggerElement: 'div.menu-bar',
+    //     triggerHook: 0,
+    //     pushFollowers: false,
+    //     reverse: true
+    // })
+    // .setPin("div.menu-bar")
+    // .setVelocity("div.menu-bar", {opacity: 1}, {duration: 400})
+    // .addTo(scrollMagicController);
     var menu = new ScrollMagic.Scene({
-        triggerElement: 'div.menu-bar',
-        triggerHook: 0,
-        pushFollowers: false,
+        offset: 15,
         reverse: true
     })
-    .setPin("div.menu-bar")
+    .setTween("div.menu-bar", 1, {opacity: 1})
     .addTo(scrollMagicController);
 			
 	var curve = {
