@@ -1,1 +1,17 @@
 /* Chapter Five */
+
+div.chapter-five-page
+{
+	background-image: url('../asset/chapter-five/wood-pattern-2.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #6ac8cb;
+}
+
+div.qa-kombucha img.base-qa-img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}

@@ -1,17 +1,5 @@
 /* Chapter Six */
 
-
-div.chapter-six-page
-{
-	margin-bottom: 50px;
-}
-
-div.chapter-six-page-content div.introduction
-{
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-
 div.healthy-way h2.title
 {
 	color: #fff;
@@ -47,7 +35,7 @@ div.healthy-way-img img#sport-img
 
 div.healthy-way-img img#rest-img
 {
-	top: 100px;
+	top: 80px;
 	left: 650px;
 }
 
@@ -66,9 +54,19 @@ div.yellow-capsule
 	margin-top: 30px;
 }
 
+div.yellow-capsule-content
+{
+	opacity: 0;
+}
+
 div.yellow-capsule-content h1
 {
 	color: #d85b72;
+}
+
+div.yellow-capsule-content span
+{
+	font-family: "Signika";
 }
 
 div.yellow-capsule-img
@@ -78,12 +76,13 @@ div.yellow-capsule-img
 
 div.yellow-capsule-img img
 {
-	width: 35%;
+	width: 40%;
 	height: auto;
 	position: absolute;
-	top: -150px;
- 	right: 5%;
+	top: 300px;
+ 	right: 0;
 	z-index: 999;
+	opacity: 0;
 }
 
 div.be-healthy 
@@ -93,8 +92,23 @@ div.be-healthy
 
 div.be-healthy img
 {
-	width: 150px;
-	height: auto;
+	height: 150px;
+	width: auto;
 	position: absolute;
+	top: -105px;
+	left: 7%;
+	opacity: 0;
+	-webkit-transform: rotate(-50deg);
+	-moz-transform:    rotate(-50deg);
+	-ms-transform:     rotate(-50deg);
+	-o-transform:      rotate(-50deg);
+	transform:         rotate(-50deg);
 }
 
+div.be-healthy h1
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	opacity: 0;
+}

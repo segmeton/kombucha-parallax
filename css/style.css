@@ -12,6 +12,12 @@ body
 	font-size: 2em;
 }
 
+
+div.content, footer, div.menu-wrapper
+{
+	max-width: 1366px;
+}
+
 .disable-scroll
 {
 	/*height: 100%;
@@ -20,7 +26,7 @@ body
 
 div.container
 {
-	width: 90%;
+	width: 80%;
 }
 
 div.intro-page, div.chapter-one-page
@@ -59,11 +65,18 @@ ul.clouds div.cloud-right
 	text-align: right;
 }
 
+div.introduction
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
 div.introduction span
 {
 	font-family: "Signika";
 	padding: 15px;	
 	background-color: #FCCC49;
+	font-weight: bold;
 }
 
 div.introduction span.red
