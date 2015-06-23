@@ -1,5 +1,11 @@
 /* Chapter Six */
 
+
+div.chapter-six-page
+{
+	margin-bottom: 50px;
+}
+
 div.chapter-six-page-content div.introduction
 {
 	margin-bottom: 30px;
@@ -20,17 +26,75 @@ div.healthy-way div.description
 div.healthy-way-img
 {
 	text-align: center;
+	position: relative;
 }
 
 div.healthy-way-img img
 {
-	width: 80%;
+	width: 60%;
 	height: auto;
 	margin: auto;
-	position: relative;
+	position: absolute;
+	opacity: 0;
+}
+
+div.healthy-way-img img#sport-img
+{
+	z-index: 99;
+	left: 0;
+	top: -500px;
+}
+
+div.healthy-way-img img#rest-img
+{
+	top: 100px;
+	left: 650px;
 }
 
 div.healthy-way-img img#diet-img
 {
 	left: -600px;
+	width: 80%;
+	position: relative;
 }
+
+div.yellow-capsule
+{
+	background-color: #fccc49;
+	padding: 25px 25% 35px 15%;
+	border-radius: 100px 0 0 100px;
+	margin-top: 30px;
+}
+
+div.yellow-capsule-content h1
+{
+	color: #d85b72;
+}
+
+div.yellow-capsule-img
+{
+	position: relative;
+}
+
+div.yellow-capsule-img img
+{
+	width: 35%;
+	height: auto;
+	position: absolute;
+	top: -150px;
+ 	right: 5%;
+	z-index: 999;
+}
+
+div.be-healthy 
+{
+	position: relative;
+}
+
+div.be-healthy img
+{
+	width: 150px;
+	height: auto;
+	position: absolute;
+}
+

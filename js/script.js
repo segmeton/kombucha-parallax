@@ -54,26 +54,82 @@ function arrowDown()
 
 function parallax()
 {
-	$('ul.clouds').parallax
-	({
-		// scalarX: 20,
-  // 		scalarY: 60
-	});
+	$('ul.clouds').parallax();
 	
 	var scrollMagicController = new ScrollMagic.Controller();
 
+	var menu = new ScrollMagic.Scene({
+        offset: 15,
+        reverse: true
+    })
+    .setTween("div.menu-bar", 1, {opacity: 1})
+    .addTo(scrollMagicController);
+
     var intro = new ScrollMagic.Scene({
         triggerElement: 'div.intro-page',
-        reverse: true
+        duration: "100%"
     })
     .on("enter", function (event) {
     	emptyTitle();
 	})
-	.on("leave", function (event) {
+    .addTo(scrollMagicController);
+
+    var chapterSixHeight = $('div.chapter-six-page').height();
+
+	var chapterSix = new ScrollMagic.Scene({
+        triggerElement: 'div.chapter-six-page',
+        duration: chapterSixHeight
+    })
+    .on("enter", function (event) {
+    	var title = $('div.chapter-six-page').data('title');
+    	changeSectionTitle(title);
+	})
+    .addTo(scrollMagicController);
+
+    var eatDrink = new ScrollMagic.Scene({
+    	triggerElement: "div#sport.healthy-way",
+    	duration: "10%",
+    	triggerHook: 0
+    })
+    .setTween("div.healthy-way-img img#diet-img", 1, {left: 30, opacity: 1})
+    .addTo(scrollMagicController);
+    
+    var footer = new ScrollMagic.Scene({
+        triggerElement: 'footer',
+        duration: "50%"
+    })
+    .on("enter", function (event) {
     	emptyTitle();
 	})
     .addTo(scrollMagicController);
+
+
+	// add indicator     .addIndicators()
+
+	// fix trigger
+	
+	
     
+    var sport = new ScrollMagic.Scene({
+    	triggerElement: "div.chapter-six-page",
+    	duration: "10%",
+    	triggerHook: 0
+    })
+    .setTween("div.healthy-way-img img#sport-img", 1, {top: 0, opacity: 1})
+    // .addIndicators("sport-img")
+    .addTo(scrollMagicController);
+
+    var rest = new ScrollMagic.Scene({
+    	triggerElement: "div.chapter-six-page",
+    	duration: "10%",
+    	triggerHook: 0
+    })
+    .setTween("div.healthy-way-img img#rest-img", 1, {left: 200, opacity: 1})
+    // .addIndicators("rest-img")
+    .addTo(scrollMagicController);
+
+
+    // fix animation
 
     // var menu = new ScrollMagic.Scene({
     //     triggerElement: 'div.menu-bar',
@@ -84,12 +140,7 @@ function parallax()
     // .setPin("div.menu-bar")
     // .setVelocity("div.menu-bar", {opacity: 1}, {duration: 400})
     // .addTo(scrollMagicController);
-    var menu = new ScrollMagic.Scene({
-        offset: 15,
-        reverse: true
-    })
-    .setTween("div.menu-bar", 1, {opacity: 1})
-    .addTo(scrollMagicController);
+    
 			
 	var curve = {
 		curviness: 1.25,
@@ -116,6 +167,7 @@ function parallax()
 	// 	}
 	// );
 
+
     var chapterOne = new ScrollMagic.Scene({
         triggerElement: 'div.chapter-one-page',
         reverse: true,
@@ -133,25 +185,7 @@ function parallax()
 	.setTween(kombuchaImage)
     .addTo(scrollMagicController);
 
-    var eatDrink = new ScrollMagic.Scene({
-    	triggerElement: "div#sport.healthy-way",
-    	duration: "30%",
-    	triggerHook: 0
-    })
-    .setTween("div.healthy-way-img img#diet-img", 1, {left: 50})
-    .addTo(scrollMagicController);
     
-
-    var footer = new ScrollMagic.Scene({
-        triggerElement: 'footer',
-    })
-    .on("enter", function (event) {
-    	emptyTitle();
-	})
-	.on("leave", function (event) {
-    	emptyTitle();
-	})
-    .addTo(scrollMagicController);
     
 }
 
