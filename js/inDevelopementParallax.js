@@ -22,7 +22,7 @@ function parallax()
     // .addTo(scrollMagicController);
 
     
-
+    
 
 
 

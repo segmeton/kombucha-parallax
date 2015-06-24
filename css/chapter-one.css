@@ -163,6 +163,14 @@ div.wood-background p.description
 	text-align: justify;
 }
 
+div.wood-background h2
+{
+	color: #fff;
+	font-weight: 500;
+	text-align: right;
+	opacity: 0;
+}
+
 div.wood-background img
 {
 	width: 100%;
@@ -170,9 +178,45 @@ div.wood-background img
 	position: relative;
 }
 
-div.wood-background img#scoby-jar
+div.scoby-tea-img
+{
+	position: relative
+}
+
+div.scoby-tea-img img#scoby-jar
 {
 	margin-top: 100px;
+	left: 700px;
+}
+
+div.scoby-tea-img img#arrow-title
+{
+	position: absolute;
+	width: 300px;
+	height: auto;
+	bottom: 50%;
+	left: -20%;
+	opacity: 0;
+}
+
+div.scoby-tea-img img#arrow-subtitle
+{
+	position: absolute;
+	width: 150px;
+	height: auto;
+	bottom: 50px;
+	left: 25%;
+	-webkit-transform: rotate(-130deg);
+	-moz-transform:    rotate(-130deg);
+	-ms-transform:     rotate(-130deg);
+	-o-transform:      rotate(-130deg);
+	transform:         rotate(-130deg);
+	opacity: 0;
+}
+
+div.wood-background img#tea-jar
+{
+	left: -700px;
 }
 
 div.wood-background div.tea-img
@@ -183,6 +227,15 @@ div.wood-background div.tea-img
 
 div.wood-background div.indonesia-map
 {
-	width: 65%;
+	width: 50%;
 	float: right;
+}
+
+div.wood-background img#scoby-indonesia
+{
+	width: 130%;
+	margin-bottom: 150px;
+	margin-top: 150px;
+	left: 700px;
+	/*left -150*/
 }

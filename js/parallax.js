@@ -113,6 +113,58 @@ function chapterOneParallax()
     })
     .setTween("div.assumption h3", 1, {opacity: 1})
     .addTo(scrollMagicController);
+
+    var scobyTea = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background",
+        duration: "30%",
+        triggerHook: 0.2
+    })
+    .setTween("div.wood-background img#scoby-jar", 1, {left: 0})
+    .addTo(scrollMagicController);
+
+    var tea = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background p.description",
+        duration: "30%",
+        triggerHook: 0.2
+    })
+    .setTween("div.wood-background img#tea-jar", 1, {left: -250})
+    .addTo(scrollMagicController);
+
+    var ArrowTitle = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background",
+        duration: "25%",
+        triggerHook: 0.4,
+        offset: 100
+    })
+    .setTween("div.scoby-tea-img img#arrow-title", 1, {opacity: 1})
+    .addTo(scrollMagicController);
+
+    var ArrowSubtitle = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background",
+        duration: "25%",
+        triggerHook: 0.4,
+        offset: 150
+    })
+    .setTween("div.scoby-tea-img img#arrow-subtitle", 1, {opacity: 1})
+    .addTo(scrollMagicController);
+
+    var subtitle = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background",
+        duration: "25%",
+        triggerHook: 0.4,
+        offset: 150
+    })
+    .setTween("div.wood-background h2", 1, {opacity: 1})
+    .addTo(scrollMagicController);
+
+    var scobyIndonesia = new ScrollMagic.Scene({
+        triggerElement: "div.wood-background h2",
+        duration: "30%",
+        triggerHook: 0.5,
+        offset: 150
+    })
+    .setTween("div.wood-background img#scoby-indonesia", 1, {left: -150})
+    .addTo(scrollMagicController);
 }
 
 function chapterTwoParallax()
