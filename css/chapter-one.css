@@ -133,5 +133,56 @@ div.assumption h3
 	opacity: 0;
 }
 
+div.chapter-one-page div.wood-background
+{
+	background-image: url('../asset/chapter-one/wood-pattern-1.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #6ac8cb;
+}
 
+div.wood-background h1.title
+{
+	color: #FCCC49;
+	font-size: 7em;
+	margin-top: 1.5em;
+	font-weight: bold;
+	line-height: .7em;
+}
 
+div.wood-background span.subtitle
+{
+	color: #FCCC49;
+}
+
+div.wood-background p.description
+{
+	color: #fff;
+	font-family: "Signika";
+	margin-top: 30px;
+	text-align: justify;
+}
+
+div.wood-background img
+{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+div.wood-background img#scoby-jar
+{
+	margin-top: 100px;
+}
+
+div.wood-background div.tea-img
+{
+	width: 50%;
+	float: left;
+}
+
+div.wood-background div.indonesia-map
+{
+	width: 65%;
+	float: right;
+}
