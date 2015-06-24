@@ -59,7 +59,7 @@ function chapterOneParallax()
 
     var curve = {
         curviness: 1.25,
-        values: [{x: -600, y: 250}]
+        values: [{x: -700, y: 250}]
     };
 
     var kombuchaImageTween = TweenMax.to("div.kombucha-img img.photo", 1,{css:{bezier:curve}, ease: Circ.easeInOut});
