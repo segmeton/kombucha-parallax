@@ -62,13 +62,17 @@ div.chapter-one-page-content div.kombucha-img img.arrow
 	height: auto;
 	position: relative;
 	top: -50px;
-	left: 100px;
+	left: 65%;
+	-webkit-transform: rotate(20deg);
+	-moz-transform:    rotate(20deg);
+	-ms-transform:     rotate(20deg);
+	-o-transform:      rotate(20deg);
+	transform:         rotate(20deg);
+	opacity: 0;
 }
-
 
 div.rrc
 {
-	width: 80%;
 	margin: auto;
 }
 
@@ -82,12 +86,9 @@ div.rrc-photo img#rrc-map
 {
 	width: 100%;
 	height: auto;
-}
-
-div.rrc-photo img
-{
-	width: 100%;
-	height: auto;
+	position: relative;
+	left: -650px;
+	z-index: 50;
 }
 
 div.rrc div.photo-description
@@ -99,6 +100,37 @@ div.rrc div.photo-description
 	padding: 20px 10% 20px 20px;
 	color: #fff;
 	font-family: "Signika";
+	position: relative;
+	left: -1150px;
+}
+
+div.assumption
+{
+	text-align: right;
+	width: 75%;
+}
+
+div.assumption img#rrc-arrow
+{
+	width: 150px;
+	height: auto;
+	position: relative;
+	-webkit-transform: rotate(200deg);
+	-moz-transform:    rotate(200deg);
+	-ms-transform:     rotate(200deg);
+	-o-transform:      rotate(200deg);
+	transform:         rotate(200deg);
+	z-index: 100;
+	top: -20px;
+	opacity: 0;
+}
+
+div.assumption h3
+{
+	float: right;
+	text-align: left;
+	width: 50%;
+	opacity: 0;
 }
 
 

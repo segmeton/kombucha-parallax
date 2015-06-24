@@ -76,13 +76,14 @@ div.yellow-capsule-img
 
 div.yellow-capsule-img img
 {
-	width: 40%;
+	width: 43%;
 	height: auto;
 	position: absolute;
 	top: 300px;
  	right: 0;
 	z-index: 999;
 	opacity: 0;
+	right: -15px;
 }
 
 div.be-healthy 
@@ -95,8 +96,8 @@ div.be-healthy img
 	height: 150px;
 	width: auto;
 	position: absolute;
-	top: -105px;
-	left: 7%;
+	top: -110px;
+	left: 3%;
 	opacity: 0;
 	-webkit-transform: rotate(-50deg);
 	-moz-transform:    rotate(-50deg);
@@ -111,4 +112,5 @@ div.be-healthy h1
 	margin-bottom: 30px;
 	text-align: center;
 	opacity: 0;
+	padding-right: 45px;
 }
