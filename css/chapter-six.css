@@ -52,6 +52,9 @@ div.yellow-capsule
 	padding: 25px 25% 35px 15%;
 	border-radius: 100px 0 0 100px;
 	margin-top: 30px;
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
 }
 
 div.yellow-capsule-content
@@ -108,7 +111,7 @@ div.be-healthy img
 
 div.be-healthy h1
 {
-	margin-top: 30px;
+	margin-top: 40px;
 	margin-bottom: 30px;
 	text-align: center;
 	opacity: 0;

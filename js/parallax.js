@@ -270,7 +270,7 @@ function chapterSixParallax()
         duration: "30%",
         triggerHook: 0
     })
-    .setTween("div.yellow-capsule-img img", 1, {top: -158, opacity: 1})
+    .setTween("div.yellow-capsule-img img", 1, {top: -148, opacity: 1})
     .addTo(scrollMagicController);
 
     var yellowCapsule = new ScrollMagic.Scene({
