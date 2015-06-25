@@ -35,7 +35,6 @@ div.content-benefit img
 	min-width: 500px;
 	width: 50%;
 	margin-top: -150px;
-	/*left: -138px;*/
 	left : -70%;
 }
 
@@ -89,14 +88,221 @@ div.kombucha-benefit
 	margin-top: 50px;
 	background-image: url('../asset/chapter-two/green-low.png');
 	background-repeat: no-repeat; 
-	background-size: 100%;
+	background-size: 100% 100%;
 	background-position: top center;
 	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-bottom: 100px;
+}
+
+div.kombucha-benefit img#benefit-title
+{
+	width: 100%;
+	height: auto;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+div.kombucha-benefit p
+{
+	font-family: "Signika";
+	text-align: justify;
+}
+
+div.human-body
+{
+	position: relative;
 }
 
 div.human-body img#anatomy
 {
 	width: 100%;
 	height: auto;
+}
+
+span.benefit 
+{
+	position: absolute;
+}
+
+span#brain.benefit
+{
+	top: 6.5%;
+	left: -12.5%;
+}
+
+span#face.benefit
+{
+	top: 15%;
+	right: -15%;
+}
+
+span#heart.benefit
+{
+	top: 31.5%;
+	right: -9%;
+}
+
+span#digestion.benefit
+{
+	top: 46%;
+	left: -17%;
+}
+
+span#liver.benefit
+{
+	top: 47%;
+	right: -15%;
+}
+
+span#bone.benefit
+{
+	bottom: 15.8%;
+	left: -20.3%;
+}
+
+span.benefit img, span.benefit a
+{
+	float: left;
+	position: relative;
+}
+
+span.benefit img
+{
+	width: 250px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	opacity: 0;
+}
+
+span.benefit .fa-circle
+{
+	color: #FCCC49;
+}
+
+div.effect
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+div.effect div.yellow-capsule
+{
+	float: right;
+	width: 90%;
+	background-color: #fccc49;
+	padding: 25px 10% 35px 15%;
+	border-radius: 0 100px 100px 0;
+	margin-top: 30px;
+	-webkit-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+}
+
+div.effect div.yellow-capsule-content h1
+{
+	color: #d85b72;
+	font-weight: bold;
+}
+
+div.effect div.yellow-capsule-content span
+{
+	font-family: "Signika";
+}
+
+div.effect img
+{
+	height: auto;
+	position: absolute;
+}
+
+div.effect img#body
+{
+	width: 15%;
+	top: 0;
+	left: 0;
+}
+
+div.effect img#hand
+{
+	width: 17%;
+	top: 69px;
+	left: 6.5%;
+	animation: handAnimation linear 4s;
+	animation-iteration-count: infinite;
+	transform-origin: 0% 100%;
+	-webkit-animation: handAnimation linear 4s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 0% 100%;
+	-moz-animation: handAnimation linear 4s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 0% 100%;
+	-o-animation: handAnimation linear 4s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 0% 100%;
+	-ms-animation: handAnimation linear 4s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 0% 100%;
+}
+
+@keyframes handAnimation{
+  0% {
+    transform:  rotate(0deg) ;
+  }
+  50% {
+    transform:  rotate(30deg) ;
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes handAnimation{
+  0% {
+    -moz-transform:  rotate(0deg) ;
+  }
+  50% {
+    -moz-transform:  rotate(30deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes handAnimation {
+  0% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+  50% {
+    -webkit-transform:  rotate(30deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes handAnimation {
+  0% {
+    -o-transform:  rotate(0deg) ;
+  }
+  50% {
+    -o-transform:  rotate(30deg) ;
+  }
+  100% {
+    -o-transform:  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes handAnimation {
+  0% {
+    -ms-transform:  rotate(0deg) ;
+  }
+  50% {
+    -ms-transform:  rotate(30deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(0deg) ;
+  }
 }

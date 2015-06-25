@@ -46,7 +46,7 @@ div.healthy-way-img img#diet-img
 	position: relative;
 }
 
-div.yellow-capsule
+div.chapter-six-page div.yellow-capsule
 {
 	background-color: #fccc49;
 	padding: 25px 25% 35px 15%;
@@ -55,29 +55,26 @@ div.yellow-capsule
 	-webkit-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
-}
-
-div.yellow-capsule-content
-{
 	opacity: 0;
 }
 
-div.yellow-capsule-content h1
+div.chapter-six-page div.yellow-capsule-content h1
 {
 	color: #d85b72;
+	font-weight: bold;
 }
 
-div.yellow-capsule-content span
+div.chapter-six-page div.yellow-capsule-content span
 {
 	font-family: "Signika";
 }
 
-div.yellow-capsule-img
+div.chapter-six-page div.yellow-capsule-img
 {
 	position: relative;
 }
 
-div.yellow-capsule-img img
+div.chapter-six-page div.yellow-capsule-img img
 {
 	width: 43%;
 	height: auto;

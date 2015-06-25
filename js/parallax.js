@@ -368,7 +368,7 @@ function chapterSixParallax()
         duration: "30%",
         triggerHook: 0
     })
-    .setTween("div.yellow-capsule-content", 1, {opacity: 1})
+    .setTween("div.chapter-six-page div.yellow-capsule", 1, {opacity: 1})
     .addTo(scrollMagicController);
 
     var arrowDown = new ScrollMagic.Scene({

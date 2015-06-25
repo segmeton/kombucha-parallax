@@ -13,7 +13,8 @@
         arrowDown();
         rrcPhotoDescriptionMargin();
         menuRedirect();
-        owlCarousel();	
+        owlCarousel();
+        kombuchaBenefit();
     });
 
     $( window ).load(function() 
@@ -81,46 +82,57 @@ function scrollTo(target)
 
 function menuRedirect()
 {
-	$('div.menu-bar ul.menu ul.dropdown-menu a').on('click',function(e)
-	{
-		e.preventDefault();
-		var target = $(this).data('target');
-		$('div.menu-bar ul.menu li').removeClass('active');
-		$(this).parent().addClass('active');
-		scrollTo(target);
-	});
+  	$('div.menu-bar ul.menu ul.dropdown-menu a').on('click',function(e)
+  	{
+    		e.preventDefault();
+    		var target = $(this).data('target');
+    		$('div.menu-bar ul.menu li').removeClass('active');
+    		$(this).parent().addClass('active');
+    		scrollTo(target);
+  	});
 }
 
 function changeSectionTitle(trigger)
 {
-	$('div.menu-bar div.section-title span').html(trigger);
+    $('div.menu-bar div.section-title span').html(trigger);
 }
 
 function emptyTitle()
 {
-	$('div.menu-bar div.section-title span').html('');
+    $('div.menu-bar div.section-title span').html('');
 }
 
 function owlCarousel()
 {
-	$owl = $("div.kombucha-procedur div.slides");
+    $owl = $("div.kombucha-procedur div.slides");
 
-	$owl.owlCarousel({
-		singleItem:true,
-		pagination: false
+    $owl.owlCarousel({
+    		singleItem:true,
+    		pagination: false
   	});
 
   	var owlData = $owl.data('owlCarousel');
 
   	$("div.navigation a#left.navigation-arrow").on("click", function(e)
   	{
-  		e.preventDefault();
-  		owlData.prev();
+    		e.preventDefault();
+    		owlData.prev();
   	});
 
   	$("div.navigation a#right.navigation-arrow").on("click", function(e)
   	{
-  		e.preventDefault();
-  		owlData.next();
+    		e.preventDefault();
+    		owlData.next();
   	});
+}
+
+function kombuchaBenefit()
+{
+    $('span.benefit a').on("click", function(e)
+    {
+        e.preventDefault();
+        var id = $(this).data("id");
+        $("span.benefit img").css("opacity", 0);
+        $("span#"+id+".benefit img").css("opacity", 1);
+    });
 }
