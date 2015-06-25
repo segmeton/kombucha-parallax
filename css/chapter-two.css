@@ -1,2 +1,102 @@
 /* Chapter Two */
 
+
+div.chapter-two-page
+{
+	padding-top: 0 !important
+}
+
+div.kombucha-content
+{
+	width: 90%;
+	float: right;
+}
+
+div.kombucha-element
+{
+	width: 11.11111111111111%;
+	float: left;
+}
+
+div.kombucha-element img, div.content-benefit img
+{
+	height: auto;
+	position: relative;
+}
+
+div.kombucha-element img
+{
+	text-align: center;
+	width: 130%;
+}
+
+div.content-benefit img
+{
+	min-width: 500px;
+	width: 50%;
+	margin-top: -150px;
+	/*left: -138px;*/
+	left : -70%;
+}
+
+div.kombucha-element img#b15
+{
+	top: -600px;
+}
+
+div.kombucha-element img#b1
+{
+	top: -420px;
+}
+
+div.kombucha-element img#b3
+{
+	top: -521px;
+}
+
+div.kombucha-element img#b6
+{
+	top: -790px;
+}
+
+div.kombucha-element img#b2
+{
+	top: -569px;
+}
+
+div.kombucha-element img#probiotik
+{
+	top: -595px;
+}
+
+div.kombucha-element img#c
+{
+	top: -416px;
+}
+
+div.kombucha-element img#enzim
+{
+	top: -829px;
+}
+
+div.kombucha-element img#b12
+{
+	top: -501px;
+}
+
+div.kombucha-benefit
+{
+	margin-top: 50px;
+	background-image: url('../asset/chapter-two/green-low.png');
+	background-repeat: no-repeat; 
+	background-size: 100%;
+	background-position: top center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+div.human-body img#anatomy
+{
+	width: 100%;
+	height: auto;
+}

@@ -139,6 +139,8 @@ div.chapter-one-page div.wood-background
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
 	background-color: #6ac8cb;
+	z-index: 100;
+	position: relative;
 }
 
 div.wood-background h1.title

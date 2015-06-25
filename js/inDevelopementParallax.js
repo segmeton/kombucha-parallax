@@ -20,6 +20,8 @@ function parallax()
     // .setTween("div.chapter-one-page-content div.kombucha-img img.arrow", 1, {opacity: 1})
     // .addIndicators()
     // .addTo(scrollMagicController);
+    // 
+    
 
     
     

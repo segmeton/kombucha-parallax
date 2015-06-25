@@ -180,6 +180,96 @@ function chapterTwoParallax()
         changeSectionTitle(title);
     })
     .addTo(scrollMagicController);
+
+    var b15 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b15", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b1 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b1", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b3 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b3", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b6 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b6", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b2 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b2", 1, {top: -80})
+    .addTo(scrollMagicController);
+
+    var probiotik = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#probiotik", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var c = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#c", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var enzim = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#enzim", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b12 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 350
+    })
+    .setTween("div.kombucha-element img#b12", 1, {top: 0})
+    .addTo(scrollMagicController);
+
+    var b12 = new ScrollMagic.Scene({
+        triggerElement: "div.indonesia-map img",
+        duration: "30%",
+        triggerHook: 0,
+        offset: 400
+    })
+    .setTween("div.content-benefit img", 1, {left: -138})
+    .addTo(scrollMagicController);
 }
 
 function chapterThreeParallax()
