@@ -111,7 +111,7 @@ function emptyTitle()
 
 function owlCarousel()
 {
-    $owl = $("div.kombucha-procedur div.slides");
+    $owl = $("div.kombucha-procedure div.slides");
 
     $owl.owlCarousel({
     		singleItem:true,

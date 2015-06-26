@@ -1,40 +1,133 @@
 /* Chapter Three */
 
-div.kombucha-procedur h1
+div.chapter-three-page
 {
-	text-align: center;
+	background-color: #fffafa;
+	padding-top: 0 !important;
 }
 
-div.kombucha-procedur div.slider
+div.paper-hole
+{
+	background-image: url("../asset/chapter-three/paper-hole.png");
+	background-repeat : repeat-x;
+	background-size: auto 100%;
+	padding: 30px;
+}
+
+div.paper
+{
+	background-image: url('../asset/chapter-three/paper-line.png');
+	background-size: 100% auto;
+	background-repeat: repeat-y;
+}
+
+div#procedure.paper
+{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin-bottom: 50px;
+}
+
+div.paper-drop-shadow
+{
+	background-image: url("../asset/chapter-three/paper-drop-shadow.png");
+	background-repeat : repeat-x;
+	background-size: auto 100%;
+	padding: 30px;
+}
+
+div.kombucha-material h1
+{
+	text-align: center;
+	font-family: 'Signika';
+	font-weight: 200;
+	font-size: 2.5em;
+	-webkit-transform: rotate(-2deg);
+	-moz-transform:    rotate(-2deg);
+	-ms-transform:     rotate(-2deg);
+	-o-transform:      rotate(-2deg);
+	transform:         rotate(-2deg);
+	color: #d85b72;
+	text-transform: uppercase;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.kombucha-material h1 span
+{
+	padding-bottom: 5px;
+	border-bottom: solid 5px #d85b72;
+}
+
+div.kombucha-material div.list
+{
+	border-left: solid 1px #fccc49;
+	font-family: "Signika";
+}
+
+div.kombucha-material h2
+{
+	font-weight: 500;
+	font-family: "Signika";
+	line-height: 71px;
+}
+
+div.kombucha-material h2.asterisk
+{
+	text-align: right
+}
+
+
+
+div.kombucha-material div.list ul
+{
+	padding-left: 0;
+}
+
+div.kombucha-material div.list ul li
+{
+	list-style: none;
+	line-height: 71px;
+}
+
+div.kombucha-procedure h1
+{
+	text-align: center;
+	font-family: 'Signika';
+	font-weight: 200;
+	font-size: 3em;
+}
+
+div.kombucha-procedure div.slider
 {
 	width: 80%;
 	margin: auto;
 	position: relative;
 }
 
-div.kombucha-procedur div.slide img
+div.kombucha-procedure div.slide img
 {
 	width: 100%;
 	height: auto;
 }
 
-div.kombucha-procedur div.navigation a
+div.kombucha-procedure div.navigation a
 {
 	position: absolute;
 	top: 35%;
 }
 
-div.kombucha-procedur div.navigation a#left
+div.kombucha-procedure div.navigation a#left
 {
 	left: -10%;
 }
 
-div.kombucha-procedur div.navigation a#right
+div.kombucha-procedure div.navigation a#right
 {
 	right: -10%;
 }
 
-div.kombucha-procedur div.navigation img
+div.kombucha-procedure div.navigation img
 {
 	width: 50px;
 	height:auto;
