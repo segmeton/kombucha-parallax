@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="css/chapter-five.css">
     <link rel="stylesheet" href="css/chapter-six.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/about-us.css">
     <link rel="stylesheet" href="css/ie.css">
     <!-- meta -->
 	<meta charset="UTF-8">
@@ -29,6 +30,15 @@
 	<title>Kombucamp</title>
 </head>
 <body class="disable-scroll">
+	<!-- facebook dependancy -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=142029409603";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- menu bar -->
 	<div class="menu-bar" data-title="">
 		<div class="menu-wrapper">
@@ -70,7 +80,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#">about</a>
+								<a href="#" id="modal-toggle" data-toggle="modal" data-target="#about-us">about</a>
 							</li>
 							<li>
 								<a href="http://www.facebook.com/">
@@ -621,6 +631,46 @@
 			</div>
 			<div class="loading-text">
 				loading
+			</div>
+		</div>
+	</div>
+	<!-- about us -->
+	<div class="modal fade" id="about-us" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				</div>
+				<div class="modal-body">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-3">
+								<img src="asset/logo.png" id="logo">
+								<div class="drop-shadow"></div>
+							</div>
+							<div class="col-xs-9">
+								<h2>About Us</h2>
+								<h1>kombucamp.com</h1>
+								<p>
+									Kombucamp dibuat sebagai sebuah proyek akhir kuliah yang pembuat jalani di Universitas Bina Nusantara. Ide awal pembuatan kombucamp ini diawalioleh keluarga yang sudah meminum teh kombucha dan sudah merasakan manfaatnya, namun banyak orang Indonesia yang belum tahu dan belum "aware" tentang teh kombucha. Oleh karena itu, dengan kombucamp, pembuat ingin mengajak, khususnya teman-teman yang sudah ataupun mau memulai hidup sehatyang mudah dan murah serta bermafaat. Website sekaligus kampanya ini, semata-mata hanya bertujuan untuk memperkenalkan teh kombucha dan bersama-sama memiliki kehidupan yang sehat. Let's Be Healthy Together!
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-9 col-xs-offset-3">
+        						<a id="facebook" target="_blank" href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=www.kombucamp.com&amp;p[images][0]= asset/logo.png&amp;p[title]=Kombucamp&amp;p[summary]=Let's Be Healthy Togeteher"><i class="fa fa-facebook fa-inverse"></i>Share on Facebook</a>
+        						<a id="mail" href="mailto:#">mail us:)</a>
+								<div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"></div>
+								
+							</div>
+						</div>
+					</div>
+					
+				</div>
 			</div>
 		</div>
 	</div>

@@ -90,6 +90,13 @@ function menuRedirect()
     		$(this).parent().addClass('active');
     		scrollTo(target);
   	});
+
+    $('div.menu-bar ul.menu a#modal-toggle').on('click',function(e)
+    {
+            e.preventDefault();
+    });
+
+    showModal();
 }
 
 function changeSectionTitle(trigger)
@@ -135,4 +142,18 @@ function kombuchaBenefit()
         $("span.benefit img").css("opacity", 0);
         $("span#"+id+".benefit img").css("opacity", 1);
     });
+}
+
+function showModal()
+{
+    $('#about-us').on('shown.bs.modal', function () 
+    {
+        $('html').addClass("in-modal");
+    })
+    $('#about-us').on('hidden.bs.modal', function () 
+    {
+        $('html').removeClass("in-modal");
+    })
+
+    // .trigger('click');
 }

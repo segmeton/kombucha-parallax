@@ -3,6 +3,7 @@ html, body
 	min-height: 100%;
 	width: 100%;
 	overflow-x: hidden;
+	position: relative;
 }
 
 body
@@ -10,6 +11,8 @@ body
 	background-color: #6ac8cb;
 	font-family: 'ClaireHand', sans-serif;
 	font-size: 2em;
+	min-height: 100%;
+	width: 100%;
 }
 
 

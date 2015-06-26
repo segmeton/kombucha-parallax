@@ -1,0 +1,106 @@
+/* About Us */
+
+.in-modal
+{
+	overflow: hidden;
+}
+
+body.modal-open
+{
+	padding-right: 0 !important;
+}
+
+div.modal
+{
+	padding-right: 0 !important;
+	z-index: 222222;
+}
+
+div.modal-backdrop
+{
+	z-index: 111111;
+}
+
+button.close
+{
+	opacity: 1;
+	color: #fff;
+}
+
+div.modal-content
+{
+	background-color: #d85b72;
+	font-family: "Signika";
+	color: #fff;
+}
+
+div.modal-header
+{
+	border-bottom: none;
+}
+
+div.modal img#logo
+{
+	width: 100%;
+	height: auto;
+}
+
+div.drop-shadow
+{
+	background-color: rgba(0,0,0, 0.2);
+	border-radius: 50%;
+	padding: 10px;
+	width: 70%;
+	margin: auto;
+	margin-top: 80px;
+}
+
+div.modal-content h2, div.modal-content h1
+{
+	text-transform: uppercase;
+	font-weight: 200;
+}
+
+div.modal-content p
+{
+	text-align: justify;
+	font-size: .8em;
+}
+
+div.modal-footer
+{
+	text-align: left;
+	border-top: none;
+	margin-bottom: 50px;
+}
+
+div.modal-footer a
+{
+	padding: 5px;
+	font-size: .8em;
+	font-weight: 200;
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+div.modal-footer a#facebook
+{
+	background-color: #405d95;
+	color: #fff;
+}
+
+div.modal-footer a#facebook .fa-facebook
+{
+	margin-right: 5px;
+}
+
+div.modal-footer a#mail
+{
+	background-color: #fff;
+	color: #d85b72;
+}
+
+div.fb-share-button
+{
+	display: none;
+}

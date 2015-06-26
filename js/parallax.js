@@ -268,7 +268,7 @@ function chapterTwoParallax()
         triggerHook: 0,
         offset: 400
     })
-    .setTween("div.content-benefit img", 1, {left: -138})
+    .setTween("div.content-benefit img", 1, {left: -142})
     .addTo(scrollMagicController);
 }
 
