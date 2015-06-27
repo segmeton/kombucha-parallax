@@ -50,7 +50,8 @@ div.kombucha-material h1
 	color: #d85b72;
 	text-transform: uppercase;
 	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 79px;
+	padding-top: 15px;
 }
 
 div.kombucha-material h1 span
@@ -63,33 +64,64 @@ div.kombucha-material div.list
 {
 	border-left: solid 1px #fccc49;
 	font-family: "Signika";
+	padding-left: 30px;
 }
 
 div.kombucha-material h2
 {
 	font-weight: 500;
 	font-family: "Signika";
-	line-height: 71px;
+	line-height: 74px;
+	font-size: 3em;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 div.kombucha-material h2.asterisk
 {
-	text-align: right
+	text-align: right;
+	padding-top: 20px;
+	line-height: 59px;
 }
-
-
 
 div.kombucha-material div.list ul
 {
 	padding-left: 0;
+	margin-bottom: 0;
 }
 
 div.kombucha-material div.list ul li
 {
 	list-style: none;
-	line-height: 71px;
+	line-height: 74px;
+	font-weight: 500;
+	font-size: 1.5em;
 }
 
+div.kombucha-material div.tools div.list
+{
+	padding-top: 74px;
+	padding-bottom: 76px;
+}
+
+div.kombucha-material div.list img
+{
+	width: auto;
+	height: 50px;
+	margin-right: 30px;
+}
+
+div.kombucha-material div.list a
+{
+	text-decoration: none;
+	color: #fccd49;
+}
+
+div.kombucha-material div.tools h2.asterisk
+{
+	margin-top: 74px;
+}
+	
 div.kombucha-procedure h1
 {
 	text-align: center;
