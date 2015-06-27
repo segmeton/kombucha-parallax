@@ -95,7 +95,8 @@ div.kombucha-material div.list ul li
 	list-style: none;
 	line-height: 74px;
 	font-weight: 500;
-	font-size: 1.5em;
+	font-size: 2em;
+	position: relative;
 }
 
 div.kombucha-material div.tools div.list
@@ -115,6 +116,30 @@ div.kombucha-material div.list a
 {
 	text-decoration: none;
 	color: #fccd49;
+}
+
+div.kombucha-material div.list ul li span#oxide-wrapper
+{
+	position: relative;
+}
+
+div.kombucha-material div.list ul li span.oxide
+{
+	font-family: 'ClaireHand';
+	color: #d85b72;
+	position: absolute;
+	top: -83px;
+	font-weight: bold;
+	left: 10px;
+}
+
+div.kombucha-material div.list ul li img#arrow-oxide
+{
+	width: 70px;
+	height: auto;
+	position: absolute;
+	top: -62px;
+	left: -65px;
 }
 
 div.kombucha-material div.tools h2.asterisk
