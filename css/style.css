@@ -24,6 +24,8 @@ body
 div.container
 {
 	width: 80%;
+	max-width: 1024px;
+	margin: auto;
 }
 
 div.intro-page, div.chapter-one-page
