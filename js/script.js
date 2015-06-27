@@ -3,6 +3,7 @@
     $(document).ready(function()
     {   
     	var windowHeight = $(window).height();
+        $("div.loading-page").css("height", windowHeight);
         $("div.intro-page").css("height", windowHeight);
         $("div.page").css("min-height",windowHeight);
         var padding = $('div.menu-bar').height();

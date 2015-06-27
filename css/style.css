@@ -15,16 +15,10 @@ body
 	width: 100%;
 }
 
-
-div.content, footer, div.menu-wrapper
-{
-	max-width: 1366px;
-}
-
 .disable-scroll
 {
-	/*height: 100%;
-	overflow: hidden;*/
+	height: 100%;
+	overflow: hidden;
 }
 
 div.container
