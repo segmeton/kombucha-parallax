@@ -40,7 +40,7 @@
 	  fjs.parentNode.insertBefore(js, fjs);
 	}(document, 'script', 'facebook-jssdk'));</script>
 	<!-- menu bar -->
-	<div class="menu-bar">
+	<div class="menu-bar hide">
 		<div class="menu-wrapper">
 			<div class="container">
 				<div class="row">
@@ -94,7 +94,7 @@
 		</div>
 	</div>
 	<!-- intro page -->
-	<div class="intro-page">
+	<div class="intro-page hide">
 		<ul class="clouds">
 			<li class="layer" data-depth="0.30">
 				<div class="layer-container cloud-left" id="cloud-one">
@@ -136,7 +136,7 @@
 		</div>
 	</div>
 	<!-- chapter one -->
-	<div class="page chapter-one-page" data-title="1. intro : teh kombucha (tk)">
+	<div class="page chapter-one-page hide" data-title="1. intro : teh kombucha (tk)">
 		<ul class="clouds">
 			<li class="layer" data-depth="0.20">
 				<div class="layer-container cloud-left" id="cloud-one">
@@ -229,7 +229,7 @@
 		</div>
 	</div>
 	<!-- chapter two -->
-	<div class="page chapter-two-page" data-title="2. manfaat kombucha">
+	<div class="page chapter-two-page hide" data-title="2. manfaat kombucha">
 		<div class="chapter-two-page-content content">
 			<div class="container">
 				<div class="row">
@@ -346,7 +346,7 @@
 		</div>
 	</div>
 	<!-- chapter three -->
-	<div class="page chapter-three-page" data-title="3. cara pembuatan tk">
+	<div class="page chapter-three-page hide" data-title="3. cara pembuatan tk">
 		<div class="chapter-three-page-content content">
 			<div class="paper-hole"></div>
 			<div class="kombucha-receipt">
@@ -423,7 +423,7 @@
 		</div>
 	</div>
 	<!-- chapter four -->
-	<div class="page chapter-four-page" data-title="4. dosis meminum tk">
+	<div class="page chapter-four-page hide" data-title="4. dosis meminum tk">
 		<div class="chapter-four-page-content content">
 			<div class="container">
 				<div class="row">
@@ -505,13 +505,58 @@
 							<span>agar tidak ada salah paham tentang kombucha lagi.</span>
 						</div>
 						<div class="qa-kombucha">
-							<img class="base-qa-img" src="asset/chapter-five/map-base.png">
-							<div class="qa" id="qa-1">
-								<div class="question">
-								
+							<div class="base">
+								<img class="base-qa-img" src="asset/chapter-five/map-base.png">
+							</div>
+							<div class="row">
+								<div class="col-xs-6 col-xs-offset-6">
+									<h1 class="choosen-answer">Jawaban: <i class="fa fa-times hide"></i><i class="fa fa-circle-o hide"></i></h1>
 								</div>
-								<div class="answer">
-									
+							</div>
+							<div class="row">
+								<div class="col-xs-6">
+									<div class="questions">
+										<img src="asset/chapter-five/kasus-1.png" class="question-1 active" data-question="1">
+										<img src="asset/chapter-five/kasus-2.png" class="question-2 hide" data-question="2">
+										<img src="asset/chapter-five/kasus-3.png" class="question-3 hide" data-question="3">
+										<img src="asset/chapter-five/kasus-4.png" class="question-4 hide" data-question="4">
+									</div>
+									<div class="options">
+										<a href="#" data-answer="wrong"><i class="fa fa-times"></i></a> / <a href="#" data-answer="right"><i class="fa fa-circle-o"></i></a>
+									</div>
+								</div>
+								<div class="col-xs-6">
+									<div class="explanations">
+										<div class="explanation-1 hide" data-explanation="1">
+											<p>Kombucha sebenarnya bukan jamur.</p>
+											<p>
+												Dalam bahasa Inggrisnya, dia disebut SCOBY (Symbiotic Culture of Bacteria and Yeast), yang berarti : sekumpulan bakteri dan ragi yang membentuk struktur selulosa dan hidup bersama secara simbiotik. Ragi memfermentasi nutrisi dan cairan dimana dia hidup dan membentuk alkohol, dan kemudian bakteri mengubahnya menjadi asam yang menyehatkan bagi tubuh. Lapisan ini disebut juga zooglea(lapisan yang hidup). Namun di Indonesia, lebih mengenal kombucha dengan nama "jamur kombucha".
+											</p>
+										</div>
+										<div class="explanation-2 hide" data-explanation="2">
+											<p>Teh kombucha sama sekali bukan obat.</p>
+											<p>
+												Kombucha adalah minuman yang ditujukan untuk mempertahankan/ meningkatkan kesehatan.Teh kombucha adalah minuman probiotik. Kombucha sarat akan vitamin B dan asam amino yang berguna untuk memperbaiki sistem kekebalan tubuh. Kombucha dapat membantu mengembalikan keseimbangan tubuh melalui detoksinasi dan meningkatkan fungsi pencernaan. Setelah keseimbangan dan kekebalan tubuh menajadi baik, sistem imun dalam tubuh kita sendirilah yang akan berperang melawan penyakit, jadi bukan teh kombucha yang berperang melawan penyakit.
+											</p>
+										</div>
+										<div class="explanation-3 hide" data-explanation="3">
+											<p>
+												Memang benar, ragi dalam SCOBY memfermentasi gula menjadi alkohol. tetapi dalam jumlah yang sangat kecil, yaitu sekitar 1% (satu persen). Jadi, jika seseorang mabuk akibat minum teh kombucha adalah hal yang mustahil. Selama masa fermentasi, ragi mengkonsumsi gula menjadi alkohol. Lalu, bakteri mengkonsumsi  alkohol tersebut dan mengubahnya menjadi bermacam-macam asam, seperti asam laktat, asam asetat, dll. Jadi, jika teh kombucha semakin lama disimpan, bukan semakin banyak alkohol yang dihasilkan, melainkan asam. Karena setelah ragi habis mengkonsumsi gula dan menghasilkan alkohol, alkohol diubah menjadi asam oleh bakteri.
+											</p>
+										</div>
+										<div class="explanation-4 hide" data-explanation="4">
+											<p>
+												Kalau kita mengacu pada fatwa LP-POM MUI, maka kita akan mendapati bahwa mereka mengatakan bahwa maksimal kandungan alkohol yang ditolerir adalah 2%. Bila kandungan alkohol melebihi 2%, berarti obat atau minuman itu adalah khamar. Cukup dengan kenyataan ini, kita tahu bahwa LP-POM MUI pun tidak mengharamkan alkohol secara mutlak. Dengan demikian jelaslah bahwa kombucha adalah minuman yang halal.
+											</p>
+											<p>
+												Namun demikian, anda tetap dapat menghilangkan alkohol dalam kombucha dengan cara dipanaskan (tapi kandungan vitamin, asam dan bakterinya jadi rusak).
+											</p>
+										</div>
+									</div>
+									<div class="navigation">
+										<a href="#" id="prev" class="hide"><img src="asset/chapter-five/prev.png"></a>
+										<a href="#" id="next" class="hide"><img src="asset/chapter-five/next.png"></a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -521,7 +566,7 @@
 		</div>
 	</div>
 	<!-- chapter six -->
-	<div class="page chapter-six-page" data-title="6. let's be healthy together">
+	<div class="page chapter-six-page hide" data-title="6. let's be healthy together">
 		<div class="chapter-six-page-content content">
 			<div class="container">
 				<div class="row">
@@ -614,7 +659,7 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<footer>
+	<footer class="hide">
 		<div class="footer">
 			<div class="container">
 				<div class="row">
@@ -659,7 +704,7 @@
 		</div>
 	</footer>
 	<!-- loading page -->
-	<div class="loading-page">
+	<div class="loading-page hide">
 		<div class="loading-page-content">
 			<div class="loading-image">
 				<img class="loading-still" src="asset/loading-page/scoby-load-diam.png">

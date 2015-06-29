@@ -17,14 +17,14 @@ body
 
 .disable-scroll
 {
-	height: 100%;
-	overflow: hidden;
+	/*height: 100%;
+	overflow: hidden;*/
 }
 
 div.container
 {
 	width: 80%;
-	max-width: 1024px;
+	max-width: 1012px;
 	margin: auto;
 }
 

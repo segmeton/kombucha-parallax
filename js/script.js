@@ -16,6 +16,7 @@
         menuRedirect();
         owlCarousel();
         kombuchaBenefit();
+        qa();
     });
 
     $( window ).load(function() 
@@ -155,6 +156,58 @@ function showModal()
     {
         $('html').removeClass("in-modal");
     })
+}
 
-    // .trigger('click');
+function qa()
+{
+    $('div.options a').on('click', function(e)
+    {
+        e.preventDefault();
+        var answer = $(this).data('answer');
+        var question = $('div.questions img.active').data('question');
+        $('h1.choosen-answer i').addClass('hide');
+        if(answer == 'right')
+        {
+            $('h1.choosen-answer i.fa-circle-o').removeClass('hide');
+        }
+        else if(answer == 'wrong')
+        {
+            $('h1.choosen-answer i.fa-times').removeClass('hide');
+        }
+        $('div.explanations div.explanation-'+question).removeClass('hide').addClass('active');
+        $('div.navigation a').addClass('hide');
+        if(question != 1)
+        {
+            $('div.navigation a#prev').removeClass('hide');
+        }
+        if(question != 4)
+        {
+            $('div.navigation a#next').removeClass('hide');
+        }
+    });
+
+
+    $('div.navigation a#next').on('click', function(e)
+    {
+        e.preventDefault();
+        $('h1.choosen-answer i').addClass('hide');
+        var question = $('div.questions img.active').data('question');
+        var next = question + 1;
+        $('div.questions img').addClass('hide').removeClass('active');
+        $('div.explanations div').addClass('hide').removeClass('active');
+        $('div.navigation a').addClass('hide');
+        $('div.questions img.question-'+next).removeClass('hide').addClass('active');
+    });
+
+    $('div.navigation a#prev').on('click', function(e)
+    {
+        e.preventDefault();
+        $('h1.choosen-answer i').addClass('hide');
+        var question = $('div.questions img.active').data('question');
+        var prev = question - 1;
+        $('div.questions img').addClass('hide').removeClass('active');
+        $('div.explanations div').addClass('hide').removeClass('active');
+        $('div.navigation a').addClass('hide');
+        $('div.questions img.question-'+prev).removeClass('hide').addClass('active');
+    });
 }

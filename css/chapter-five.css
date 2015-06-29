@@ -8,10 +8,120 @@ div.chapter-five-page
 	background-color: #6ac8cb;
 }
 
+div.qa-kombucha
+{
+	padding-top: 30px;
+	position: relative;
+}
+
+div.qa-kombucha div.base
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 div.qa-kombucha img.base-qa-img
+{
+	width: 120%;
+	height: auto;
+	position: relative;
+	top: 0;
+	left: -10%;
+}
+
+div.qa-kombucha h1.choosen-answer
+{
+	color: #fff;
+	font-family: "Signika";
+	font-weight: 200;
+	font-size: 2.5em;
+	text-align: center;
+	margin-top: 60px;
+}
+
+div.qa-kombucha .fa-circle-o
+{
+	color: #009540;
+}
+
+
+div.qa-kombucha .fa-times
+{
+	color: #e20613;
+}
+
+div.options
+{
+	text-align: right;
+	font-size: 2.5em;
+	margin-top: 25px;
+	padding-right: 65px;
+	margin-bottom: 200px;
+}
+
+div.options a
+{
+	text-decoration: none;
+}
+
+div.questions img
 {
 	width: 100%;
 	height: auto;
-	margin-top: 30px;
-	margin-bottom: 100px;
+	padding-left: 60px;
+	padding-top: 120px;
+	padding-right: 120px;
+	padding-bottom: 50px;
+}
+
+div.explanations
+{
+	margin-top: 145px;
+	padding-left: 80px;
+	font-family: Signika;
+	font-weight: 200;
+	font-size: 0.8em;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+div.navigation a
+{
+	text-decoration: none;
+	position: relative;
+}
+
+div.navigation a#prev
+{
+	float: left;
+	margin-left: 80px;
+}
+
+div.navigation a#next
+{
+	float: right;
+	margin-right: 25px;
+}
+
+div.navigation a img
+{
+	position: relative;
+	width: 150px;
+	height: auto;
+}
+
+div.explanation-1
+{
+	margin-bottom: 55px;
+}
+
+div.explanation-3
+{
+	margin-bottom: 20px;
+}
+
+div.explanation-4
+{
+	margin-bottom: 33px;
 }
