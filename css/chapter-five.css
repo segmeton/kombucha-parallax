@@ -90,6 +90,7 @@ div.navigation a
 {
 	text-decoration: none;
 	position: relative;
+	z-index: 999;
 }
 
 div.navigation a#prev
