@@ -32,10 +32,24 @@ div.kombucha-element img
 
 div.content-benefit img
 {
-	min-width: 500px;
+	min-width: 1000px;
 	width: 50%;
 	margin-top: -150px;
-	left : -70%;
+	left : -150%;
+}
+
+div.content-benefit, span.benefit-img-wrapper
+{
+	position: relative;
+}
+
+
+div.content-benefit img#back-img
+{
+	position: absolute;
+	bottom: 0;
+	right: 100%;
+	height: 100%;
 }
 
 div.kombucha-element img#b15

@@ -2,7 +2,7 @@ deadline rabu malam
 
 
 - panah goyang ny ky kickmyhabit
-- description bwat manfaat hrs ampe ujung
+
 
 
 
@@ -45,3 +45,4 @@ fixed
 - img glas kc opacity, pas d hover bru jd opacity 1
 - item bhan goyang - goyang (agak bda2 dikit)
 - tulisan d kasul kuning agak d ktengahin
+- description bwat manfaat hrs ampe ujung
