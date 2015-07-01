@@ -74,33 +74,81 @@ div.modal-footer
 	margin-bottom: 50px;
 }
 
-div.modal-footer a
+div.modal img#logo
 {
-	padding: 5px;
-	font-size: .8em;
-	font-weight: 200;
-	margin-right: 30px;
-	text-decoration: none;
+	animation: logoAnimation ease-in-out 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	-webkit-animation: logoAnimation ease-in-out 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-moz-animation: logoAnimation ease-in-out 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 50%;
+	-o-animation: logoAnimation ease-in-out 2s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 50%;
+	-ms-animation: logoAnimation ease-in-out 2s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
 }
 
-div.modal-footer a#facebook
-{
-	background-color: #405d95;
-	color: #fff;
+@keyframes logoAnimation{
+  0% {
+    transform:  translate(0px,10px)  ;
+  }
+  50% {
+    transform:  translate(0px,40px)  ;
+  }
+  100% {
+    transform:  translate(0px,10px)  ;
+  }
 }
 
-div.modal-footer a#facebook .fa-facebook
-{
-	margin-right: 5px;
+@-moz-keyframes logoAnimation{
+  0% {
+    -moz-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -moz-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,10px)  ;
+  }
 }
 
-div.modal-footer a#mail
-{
-	background-color: #fff;
-	color: #d85b72;
+@-webkit-keyframes logoAnimation {
+  0% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
 }
 
-div.fb-share-button
-{
-	display: none;
+@-o-keyframes logoAnimation {
+  0% {
+    -o-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -o-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,10px)  ;
+  }
+}
+
+@-ms-keyframes logoAnimation {
+  0% {
+    -ms-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -ms-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,10px)  ;
+  }
 }

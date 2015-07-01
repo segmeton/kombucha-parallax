@@ -17,7 +17,7 @@ div.paper-hole
 div.paper
 {
 	background-image: url('../asset/chapter-three/paper-line.png');
-	background-size: 100% auto;
+	background-size: 100% 80px;
 	background-repeat: repeat-y;
 }
 
@@ -50,7 +50,7 @@ div.kombucha-material h1
 	color: #d85b72;
 	text-transform: uppercase;
 	margin-top: 50px;
-	margin-bottom: 79px;
+	margin-bottom: 90px;
 	padding-top: 15px;
 }
 
@@ -71,7 +71,7 @@ div.kombucha-material h2
 {
 	font-weight: 500;
 	font-family: "Signika";
-	line-height: 74px;
+	line-height: 80px;
 	font-size: 3em;
 	margin-bottom: 0;
 	margin-top: 0;
@@ -93,9 +93,9 @@ div.kombucha-material div.list ul
 div.kombucha-material div.list ul li
 {
 	list-style: none;
-	line-height: 74px;
+	line-height: 82px;
 	font-weight: 500;
-	font-size: 2em;
+	font-size: 1.8em;
 	position: relative;
 }
 
@@ -116,6 +116,11 @@ div.kombucha-material div.list a
 {
 	text-decoration: none;
 	color: #fccd49;
+}
+
+div.kombucha-material div.list a:hover
+{
+	color: #6ac8cb;
 }
 
 div.kombucha-material div.list ul li span#oxide-wrapper

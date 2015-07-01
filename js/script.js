@@ -8,6 +8,7 @@
         $("div.page").css("min-height",windowHeight);
         var padding = $('div.menu-bar').height();
         $('div.page').css('padding-top', padding);
+        $('div.chapter-four-page').css('padding-bottom', padding);
         $('div.footer').css('padding-top', padding+15);
         marginPage('loading');
         marginPage('intro');
@@ -96,9 +97,28 @@ function menuRedirect()
     $('div.menu-bar ul.menu a#modal-toggle').on('click',function(e)
     {
             e.preventDefault();
+            showModal();
     });
 
-    showModal();
+    $('div.menu-bar div.logo a#go-to-top').on('click',function(e)
+    {
+        e.preventDefault();
+        var target = 'intro-page';
+        $('div.menu-bar ul.menu li').removeClass('active');
+        scrollTo(target);
+    });
+}
+
+function showModal()
+{
+    $('#about-us').on('shown.bs.modal', function () 
+    {
+        $('html').addClass("in-modal");
+    })
+    $('#about-us').on('hidden.bs.modal', function () 
+    {
+        $('html').removeClass("in-modal");
+    })
 }
 
 function changeSectionTitle(trigger)
@@ -146,18 +166,6 @@ function kombuchaBenefit()
     });
 }
 
-function showModal()
-{
-    $('#about-us').on('shown.bs.modal', function () 
-    {
-        $('html').addClass("in-modal");
-    })
-    $('#about-us').on('hidden.bs.modal', function () 
-    {
-        $('html').removeClass("in-modal");
-    })
-}
-
 function qa()
 {
     $('div.options a').on('click', function(e)
@@ -166,11 +174,11 @@ function qa()
         var answer = $(this).data('answer');
         var question = $('div.questions img.active').data('question');
         $('h1.choosen-answer i').addClass('hide');
-        if(answer == 'right')
+        if(question == 3 || question == 4)
         {
             $('h1.choosen-answer i.fa-circle-o').removeClass('hide');
         }
-        else if(answer == 'wrong')
+        else if(question == 1 || question == 2)
         {
             $('h1.choosen-answer i.fa-times').removeClass('hide');
         }
