@@ -85,3 +85,10 @@ div.introduction span.red
 	padding-left: 50px;
 	padding-right: 50px;
 }
+
+div.fb-like
+{
+	position: absolute !important;
+	right: 15px !important;
+	top: 11px !important;
+}

@@ -129,6 +129,7 @@ div.copyright
 	font-size: 1em;
 	background-color: #fff;
 	padding: 15px;
+	position: relative;
 }
 
 @keyframes facebookArrowAnimation{

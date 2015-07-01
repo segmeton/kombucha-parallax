@@ -4,7 +4,7 @@ div.chapter-one-page
 {
 	background-image: url('../asset/chapter-one/rope.png');
 	background-repeat: no-repeat; 
-	background-size: 100%;
+	background-size: 100% 250px;
 	background-position: top center;
 }
 
@@ -41,10 +41,15 @@ div.chapter-one-page ul.clouds div#cloud-three img
 	width: 40%;
 }
 
+div.chapter-one-page-content div.description
+{
+	margin-bottom: 100px;
+}
+
 div.chapter-one-page-content div.description p.signika
 {
 	font-family: 'Signika';
-	margin-top: 40%;
+	margin-top: 250px;
 }
 
 div.chapter-one-page-content div.kombucha-img img.photo

@@ -8,6 +8,7 @@
         $("div.page").css("min-height",windowHeight);
         var padding = $('div.menu-bar').height();
         $('div.page').css('padding-top', padding);
+        $('div.chapter-four-page').css('padding-bottom', padding);
         $('div.footer').css('padding-top', padding+15);
         marginPage('loading');
         marginPage('intro');
