@@ -166,11 +166,11 @@ function qa()
         var answer = $(this).data('answer');
         var question = $('div.questions img.active').data('question');
         $('h1.choosen-answer i').addClass('hide');
-        if(answer == 'right')
+        if(question == 3 || question == 4)
         {
             $('h1.choosen-answer i.fa-circle-o').removeClass('hide');
         }
-        else if(answer == 'wrong')
+        else if(question == 1 || question == 2)
         {
             $('h1.choosen-answer i.fa-times').removeClass('hide');
         }

@@ -88,12 +88,14 @@ function chapterOneParallax()
     .setTween("div.rrc-photo img#rrc-map", 1, {left: 0})
     .addTo(scrollMagicController);
 
+    var left = $('div.rrc div.photo-description').parent().width() * 0.3;
+
     var descriptionRRC = new ScrollMagic.Scene({
         triggerElement: "div.chapter-one-page-content div.description p:last-child",
         duration: "30%",
         triggerHook: 0.5
     })
-    .setTween("div.rrc div.photo-description", 1, {left: 0})
+    .setTween("div.rrc div.photo-description", 1, {left: left})
     .addTo(scrollMagicController);
 
     var arrowRRC = new ScrollMagic.Scene({
@@ -117,7 +119,7 @@ function chapterOneParallax()
     var scobyTea = new ScrollMagic.Scene({
         triggerElement: "div.wood-background",
         duration: "30%",
-        triggerHook: 0.2
+        triggerHook: 0.4
     })
     .setTween("div.wood-background img#scoby-jar", 1, {left: 0})
     .addTo(scrollMagicController);
@@ -125,7 +127,7 @@ function chapterOneParallax()
     var tea = new ScrollMagic.Scene({
         triggerElement: "div.wood-background p.description",
         duration: "30%",
-        triggerHook: 0.2
+        triggerHook: 0.3
     })
     .setTween("div.wood-background img#tea-jar", 1, {left: -250})
     .addTo(scrollMagicController);

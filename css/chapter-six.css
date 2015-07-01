@@ -19,7 +19,7 @@ div.healthy-way-img
 
 div.healthy-way-img img
 {
-	width: 60%;
+	width: 80%;
 	height: auto;
 	margin: auto;
 	position: absolute;
@@ -42,7 +42,6 @@ div.healthy-way-img img#rest-img
 div.healthy-way-img img#diet-img
 {
 	left: -600px;
-	width: 80%;
 	position: relative;
 }
 

@@ -118,6 +118,11 @@ div.kombucha-material div.list a
 	color: #fccd49;
 }
 
+div.kombucha-material div.list a
+{
+	color: #6ac8cb;
+}
+
 div.kombucha-material div.list ul li span#oxide-wrapper
 {
 	position: relative;

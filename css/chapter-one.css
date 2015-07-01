@@ -74,12 +74,18 @@ div.chapter-one-page-content div.kombucha-img img.arrow
 div.rrc
 {
 	margin: auto;
+	position: relative
 }
 
-div.rrc > div
+div.rrc > div.rrc-photo
 {
 	width: 50%;
 	float: left;
+}
+div.rrc > div.photo-description
+{
+	width: 70%;
+	position: absolue;
 }
 
 div.rrc-photo img#rrc-map
@@ -97,11 +103,11 @@ div.rrc div.photo-description
 	background-size: 100% 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
-	padding: 20px 10% 20px 20px;
+	padding: 20px 10% 20px 25%;
 	color: #fff;
 	font-family: "Signika";
-	position: relative;
-	left: -1150px;
+	position: absolute;
+	left: -100%;
 }
 
 div.assumption
@@ -162,7 +168,6 @@ div.wood-background p.description
 	color: #fff;
 	font-family: "Signika";
 	margin-top: 30px;
-	text-align: justify;
 }
 
 div.wood-background h2
