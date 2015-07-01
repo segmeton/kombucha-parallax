@@ -96,9 +96,28 @@ function menuRedirect()
     $('div.menu-bar ul.menu a#modal-toggle').on('click',function(e)
     {
             e.preventDefault();
+            showModal();
     });
 
-    showModal();
+    $('div.menu-bar div.logo a#go-to-top').on('click',function(e)
+    {
+        e.preventDefault();
+        var target = 'intro-page';
+        $('div.menu-bar ul.menu li').removeClass('active');
+        scrollTo(target);
+    });
+}
+
+function showModal()
+{
+    $('#about-us').on('shown.bs.modal', function () 
+    {
+        $('html').addClass("in-modal");
+    })
+    $('#about-us').on('hidden.bs.modal', function () 
+    {
+        $('html').removeClass("in-modal");
+    })
 }
 
 function changeSectionTitle(trigger)
@@ -144,18 +163,6 @@ function kombuchaBenefit()
         $("span.benefit img").css("opacity", 0);
         $("span#"+id+".benefit img").css("opacity", 1);
     });
-}
-
-function showModal()
-{
-    $('#about-us').on('shown.bs.modal', function () 
-    {
-        $('html').addClass("in-modal");
-    })
-    $('#about-us').on('hidden.bs.modal', function () 
-    {
-        $('html').removeClass("in-modal");
-    })
 }
 
 function qa()
