@@ -30,6 +30,12 @@ div.chapter-four-page-content div.tea-glass img
 {
 	width: 100%;
 	height: auto;
+	opacity: .5;
+}
+
+div.chapter-four-page-content div.glass:hover div.tea-glass img
+{
+	opacity: 1;
 }
 
 div.chapter-four-page-content div.tea-glass span.volume

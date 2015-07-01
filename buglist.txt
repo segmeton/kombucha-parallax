@@ -1,28 +1,10 @@
 deadline rabu malam
 
-- tali jemuran naekin
-- text left align
+
 - panah goyang ny ky kickmyhabit
-- description ny peta china, bag pink ny d pnjangin, tulisan ny d gesr agak k tgh
-- subtitle scoby d gedein, sma rata sma scoby ny
-- scoby d tmbahin pding top ny
 - description bwat manfaat hrs ampe ujung
-- mulailah minum, tulisan ny d geser, jgn kna tgn
-- resep turunin
-- item bhan goyang - goyang (agak bda2 dikit)
-- beli disini, ganti warna pas d hover
-- toples, bkin sebaris
-- dosis ny d kasih space
-- jawaban ny d fix, klo udh d pilih 
-- foto agak d gedein,
-- orang minum (let's be healthy) muncul dr blakang footer
-- tulisan d kasul kuning agak d ktengahin
-- tulisan kunjungi website kombucha ganti warna pas d hover
-- logo back top
-- facebook like plugin, d intro page, sma d footer
-- logo kombucmp d about us, turunin dan bergoyang
-- share on facebook and mail us ny d buang
-- tulisan logo sma chapter title d menu bar agak d turunin
+
+
 
 facebook page : /kombucampID
 logo bakal d ganti
@@ -31,7 +13,7 @@ resolusi : 1440 x 900
 hover color : warna ijo bg
 
 - kandungan klo dhover goyang2
-- img glas kc opacity, pas d hiver bru jd opacity 1
+
 - bubble
 
 margin-bottom 91px -> ayo membuat
@@ -39,3 +21,27 @@ margin-bottom 91px -> ayo membuat
 line-height 77px -> bahan -bahan
 
 line height 82px -> material
+
+fixed
+- tali jemuran naekin
+- text left align
+- description ny peta china, bag pink ny d pnjangin, tulisan ny d gesr agak k tgh
+- orang minum (let's be healthy) muncul dr blakang footer
+- tulisan kunjungi website kombucha ganti warna pas d hover
+- logo back top
+- facebook like plugin, d intro page, sma d footer
+- logo kombucmp d about us, turunin dan bergoyang
+- share on facebook and mail us ny d buang
+- tulisan logo sma chapter title d menu bar agak d turunin
+- beli disini, ganti warna pas d hover
+- toples, bkin sebaris
+- dosis ny d kasih space
+- jawaban ny d fix, klo udh d pilih 
+- subtitle scoby d gedein, sma rata sma scoby ny
+- scoby d tmbahin pding top ny
+- mulailah minum, tulisan ny d geser, jgn kna tgn
+- resep turunin
+- foto agak d gedein
+- img glas kc opacity, pas d hover bru jd opacity 1
+- item bhan goyang - goyang (agak bda2 dikit)
+- tulisan d kasul kuning agak d ktengahin

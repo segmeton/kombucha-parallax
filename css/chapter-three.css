@@ -194,3 +194,90 @@ div.kombucha-procedure div.navigation img
 	width: 50px;
 	height:auto;
 }
+
+div.kombucha-material div.list img{
+  animation: itemAnimation ease-in 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: itemAnimation ease-in 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: itemAnimation ease-in 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: itemAnimation ease-in 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: itemAnimation ease-in 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+div.kombucha-material div.list ul li:nth-child(even) img
+{
+	-moz-animation-delay: 1s; 
+	-webkit-animation-delay: 1s; 
+	-ms-animation-delay: 1s; 
+	-o-animation-delay: 1s; 
+    animation-delay: 1s;
+}
+
+@keyframes itemAnimation{
+  0% {
+    transform:  translate(0px,0px)  ;
+  }
+  50% {
+    transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    transform:  translate(0px,0px)  ;
+  }
+}
+
+@-moz-keyframes itemAnimation{
+  0% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -moz-transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-webkit-keyframes itemAnimation {
+  0% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-o-keyframes itemAnimation {
+  0% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -o-transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,0px)  ;
+  }
+}
+
+@-ms-keyframes itemAnimation {
+  0% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+  50% {
+    -ms-transform:  translate(0px,-10px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,0px)  ;
+  }
+}

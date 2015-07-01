@@ -49,7 +49,7 @@ div.chapter-one-page-content div.description
 div.chapter-one-page-content div.description p.signika
 {
 	font-family: 'Signika';
-	margin-top: 250px;
+	margin-top: 200px;
 }
 
 div.chapter-one-page-content div.kombucha-img img.photo
@@ -166,6 +166,7 @@ div.wood-background h1.title
 div.wood-background span.subtitle
 {
 	color: #FCCC49;
+	font-size: 1.1em;
 }
 
 div.wood-background p.description

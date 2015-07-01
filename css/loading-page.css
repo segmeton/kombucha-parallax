@@ -140,6 +140,8 @@ div.loading-nodes div.node-two
 {
 	-moz-animation-delay: 1s; 
 	-webkit-animation-delay: 1s; 
+	-ms-animation-delay: 1s; 
+	-o-animation-delay: 1s; 
     animation-delay: 1s;
 }
 
@@ -147,6 +149,8 @@ div.loading-nodes div.node-three
 {
 	-webkit-animation-delay: 2s; 
 	-webkit-animation-delay: 2s; 
+	-ms-animation-delay: 2s; 
+	-o-animation-delay: 2s; 
     animation-delay: 2s;
 }
 
