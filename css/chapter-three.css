@@ -118,7 +118,7 @@ div.kombucha-material div.list a
 	color: #fccd49;
 }
 
-div.kombucha-material div.list a
+div.kombucha-material div.list a:hover
 {
 	color: #6ac8cb;
 }

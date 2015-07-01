@@ -104,3 +104,82 @@ div.fb-share-button
 {
 	display: none;
 }
+
+div.modal img#logo
+{
+	animation: logoAnimation ease-in-out 2s;
+	animation-iteration-count: infinite;
+	transform-origin: 50% 50%;
+	-webkit-animation: logoAnimation ease-in-out 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-transform-origin: 50% 50%;
+	-moz-animation: logoAnimation ease-in-out 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-transform-origin: 50% 50%;
+	-o-animation: logoAnimation ease-in-out 2s;
+	-o-animation-iteration-count: infinite;
+	-o-transform-origin: 50% 50%;
+	-ms-animation: logoAnimation ease-in-out 2s;
+	-ms-animation-iteration-count: infinite;
+	-ms-transform-origin: 50% 50%;
+}
+
+@keyframes logoAnimation{
+  0% {
+    transform:  translate(0px,10px)  ;
+  }
+  50% {
+    transform:  translate(0px,40px)  ;
+  }
+  100% {
+    transform:  translate(0px,10px)  ;
+  }
+}
+
+@-moz-keyframes logoAnimation{
+  0% {
+    -moz-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -moz-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -moz-transform:  translate(0px,10px)  ;
+  }
+}
+
+@-webkit-keyframes logoAnimation {
+  0% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -webkit-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -webkit-transform:  translate(0px,10px)  ;
+  }
+}
+
+@-o-keyframes logoAnimation {
+  0% {
+    -o-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -o-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -o-transform:  translate(0px,10px)  ;
+  }
+}
+
+@-ms-keyframes logoAnimation {
+  0% {
+    -ms-transform:  translate(0px,10px)  ;
+  }
+  50% {
+    -ms-transform:  translate(0px,40px)  ;
+  }
+  100% {
+    -ms-transform:  translate(0px,10px)  ;
+  }
+}
