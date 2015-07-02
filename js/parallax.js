@@ -264,7 +264,7 @@ function chapterTwoParallax()
     .setTween("div.kombucha-element img#b12", 1, {top: 0})
     .addTo(scrollMagicController);
 
-    var moveWidth = $('div.content-benefit').width() * 0.7;
+    var moveWidth = $('div.content-benefit').width() * 0.65;
 
     var benefit = new ScrollMagic.Scene({
         triggerElement: "div.indonesia-map img",
