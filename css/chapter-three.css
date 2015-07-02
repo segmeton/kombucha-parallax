@@ -224,9 +224,9 @@ div.kombucha-material div.list ul li:nth-child(even) img
 
 div.tools span#oxide-wrapper img#arrow-oxide
 {
-	-webkit-animation: rotate-wiggle-anticlockwise 1.6s infinite forwards;
-    -moz-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
-    -ms-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
-    -o-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
-    animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
+	-webkit-animation: rotate-wiggle-anticlockwise-two 1.6s infinite forwards;
+    -moz-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    -ms-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    -o-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
 }

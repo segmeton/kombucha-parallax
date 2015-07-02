@@ -95,8 +95,8 @@ div.be-healthy img
 	height: 150px;
 	width: auto;
 	position: absolute;
-	top: -140px;
-	left: 1%;
+	top: -150px;
+	left: 5%;
 	opacity: 0;
 	-webkit-transform: rotate(-50deg);
 	-moz-transform:    rotate(-50deg);

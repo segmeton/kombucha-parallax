@@ -83,7 +83,13 @@ div.blue-capsule img.arrow
 	-o-transform:      rotate(-10deg);
 	transform:         rotate(-10deg);
 
-	animation: facebookArrowAnimation linear 2s;
+	-webkit-animation: rotate-wiggle-anticlockwise-three 1.6s infinite forwards;
+    -moz-animation: rotate-wiggle-anticlockwise-three 1.2s infinite forwards;
+    -ms-animation: rotate-wiggle-anticlockwise-three 1.2s infinite forwards;
+    -o-animation: rotate-wiggle-anticlockwise-three 1.2s infinite forwards;
+    animation: rotate-wiggle-anticlockwise-three 1.2s infinite forwards;
+
+	/*animation: facebookArrowAnimation linear 2s;
 	animation-iteration-count: infinite;
 	transform-origin: 50% 100%;
 	-webkit-animation: facebookArrowAnimation linear 2s;
@@ -97,7 +103,7 @@ div.blue-capsule img.arrow
 	-o-transform-origin: 50% 100%;
 	-ms-animation: facebookArrowAnimation linear 2s;
 	-ms-animation-iteration-count: infinite;
-	-ms-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;*/
 }
 
 div.blue-capsule div.capsule-content > span
@@ -130,64 +136,4 @@ div.copyright
 	background-color: #fff;
 	padding: 15px;
 	position: relative;
-}
-
-@keyframes facebookArrowAnimation{
-  0% {
-    transform:  rotate(10deg) ;
-  }
-  50% {
-    transform:  rotate(-10deg) ;
-  }
-  100% {
-    transform:  rotate(10deg) ;
-  }
-}
-
-@-moz-keyframes facebookArrowAnimation{
-  0% {
-    -moz-transform:  rotate(10deg) ;
-  }
-  50% {
-    -moz-transform:  rotate(-10deg) ;
-  }
-  100% {
-    -moz-transform:  rotate(10deg) ;
-  }
-}
-
-@-webkit-keyframes facebookArrowAnimation {
-  0% {
-    -webkit-transform:  rotate(10deg) ;
-  }
-  50% {
-    -webkit-transform:  rotate(-10deg) ;
-  }
-  100% {
-    -webkit-transform:  rotate(10deg) ;
-  }
-}
-
-@-o-keyframes facebookArrowAnimation {
-  0% {
-    -o-transform:  rotate(10deg) ;
-  }
-  50% {
-    -o-transform:  rotate(-10deg) ;
-  }
-  100% {
-    -o-transform:  rotate(10deg) ;
-  }
-}
-
-@-ms-keyframes facebookArrowAnimation {
-  0% {
-    -ms-transform:  rotate(10deg) ;
-  }
-  50% {
-    -ms-transform:  rotate(-10deg) ;
-  }
-  100% {
-    -ms-transform:  rotate(10deg) ;
-  }
 }

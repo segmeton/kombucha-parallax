@@ -74,6 +74,11 @@ div.chapter-one-page-content div.kombucha-img img.arrow
 	-o-transform:      rotate(20deg);
 	transform:         rotate(20deg);
 	opacity: 0;
+	-webkit-animation: rotate-wiggle-anticlockwise 1.6s infinite forwards;
+    -moz-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
+    -ms-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
+    -o-animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
+    animation: rotate-wiggle-anticlockwise 1.2s infinite forwards;
 }
 
 div.rrc
@@ -132,8 +137,13 @@ div.assumption img#rrc-arrow
 	-o-transform:      rotate(200deg);
 	transform:         rotate(200deg);
 	z-index: 100;
-	top: -20px;
+	top: -80px;
 	opacity: 0;
+	-webkit-animation: rotate-wiggle-anticlockwise-four 1.6s infinite forwards;
+    -moz-animation: rotate-wiggle-anticlockwise-four 1.2s infinite forwards;
+    -ms-animation: rotate-wiggle-anticlockwise-four 1.2s infinite forwards;
+    -o-animation: rotate-wiggle-anticlockwise-four 1.2s infinite forwards;
+    animation: rotate-wiggle-anticlockwise-four 1.2s infinite forwards;
 }
 
 div.assumption h3
