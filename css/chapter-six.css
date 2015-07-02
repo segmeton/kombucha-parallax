@@ -95,14 +95,19 @@ div.be-healthy img
 	height: 150px;
 	width: auto;
 	position: absolute;
-	top: -110px;
-	left: 3%;
+	top: -140px;
+	left: 1%;
 	opacity: 0;
 	-webkit-transform: rotate(-50deg);
 	-moz-transform:    rotate(-50deg);
 	-ms-transform:     rotate(-50deg);
 	-o-transform:      rotate(-50deg);
 	transform:         rotate(-50deg);
+	-webkit-animation: rotate-wiggle-anticlockwise-two 1.6s infinite forwards;
+    -moz-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    -ms-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    -o-animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
+    animation: rotate-wiggle-anticlockwise-two 1.2s infinite forwards;
 }
 
 div.be-healthy h1
