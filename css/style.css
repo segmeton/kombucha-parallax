@@ -8,17 +8,20 @@ html, body
 
 body
 {
-	background-color: #6ac8cb;
+	/*background-color:;*/
 	font-family: 'ClaireHand', sans-serif;
 	font-size: 2em;
 	min-height: 100%;
 	width: 100%;
+	background:  #6ac8cb url(../asset/bubble-garis-gerak-pack.png) repeat fixed;
+	background-size: 100%;
+	/*background:  #6ac8cb url(../asset/bubbles.png) repeat fixed;*/
 }
 
 .disable-scroll
 {
-	height: 100%;
-	overflow: hidden;
+	/*height: 100%;
+	overflow: hidden;*/
 }
 
 div.container

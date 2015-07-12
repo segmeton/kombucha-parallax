@@ -52,7 +52,7 @@ function arrowDown()
 	{
 		e.preventDefault();
 		var target = $(this).data('target');
-		scrollTo(target);
+		scrollToTarget(target);
 	});
 }
 
@@ -69,9 +69,10 @@ function rrcPhotoDescriptionMargin()
     $photoDescription.css('margin-top', margin+'px');
 }
 
-function scrollTo(target)
+function scrollToTarget(target)
 {
 	var position = $('div.'+target).offset().top;
+    // var position = 0;
 	TweenMax.to($('body'), 2, 
 	{
 		scrollTo: 
@@ -91,7 +92,7 @@ function menuRedirect()
     		var target = $(this).data('target');
     		$('div.menu-bar ul.menu li').removeClass('active');
     		$(this).parent().addClass('active');
-    		scrollTo(target);
+    		scrollToTarget(target);
   	});
 
     $('div.menu-bar ul.menu a#modal-toggle').on('click',function(e)
@@ -105,7 +106,7 @@ function menuRedirect()
         e.preventDefault();
         var target = 'intro-page';
         $('div.menu-bar ul.menu li').removeClass('active');
-        scrollTo(target);
+        scrollToTarget(target);
     });
 }
 

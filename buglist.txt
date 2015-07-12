@@ -1,5 +1,5 @@
 deadline rabu malam
-
+- all done
 
 facebook page : /kombucampID
 logo bakal d ganti
@@ -8,8 +8,6 @@ resolusi : 1440 x 900
 hover color : warna ijo bg
 
 - kandungan klo dhover goyang2
-
-- bubble
 
 margin-bottom 91px -> ayo membuat
 
@@ -41,4 +39,5 @@ fixed
 - item bhan goyang - goyang (agak bda2 dikit)
 - tulisan d kasul kuning agak d ktengahin
 - description bwat manfaat hrs ampe ujung
+- bubble
 - panah goyang ny ky kickmyhabit

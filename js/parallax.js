@@ -14,8 +14,16 @@ var scrollMagicController = new ScrollMagic.Controller();
         chapterSixParallax();
         footerParallax();
 		parallax();
+        bubbleBg()
     });
 })(jQuery);
+
+function bubbleBg()
+{
+     var s = skrollr.init({
+        forceHeight: false
+    });
+}
 
 function cloudParallax()
 {
