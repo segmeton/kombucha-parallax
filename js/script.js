@@ -72,7 +72,6 @@ function rrcPhotoDescriptionMargin()
 function scrollToTarget(target)
 {
 	var position = $('div.'+target).offset().top;
-    // var position = 0;
 	TweenMax.to($('body'), 2, 
 	{
 		scrollTo: 
