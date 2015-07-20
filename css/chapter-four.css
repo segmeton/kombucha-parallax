@@ -62,5 +62,6 @@ div.chapter-four-page-content div.glass:hover div.description
 div.chapter-four-page-content div.glass div.description span.age
 {
 	color: #d85b72;
+	font-weight: 500;
 }
 

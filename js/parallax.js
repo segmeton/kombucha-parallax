@@ -278,7 +278,7 @@ function chapterTwoParallax()
         triggerElement: "div.indonesia-map img",
         duration: "30%",
         triggerHook: 0,
-        offset: 400
+        offset: 600
     })
     .setTween("div.content-benefit img", 1, {left: -moveWidth})
     .addTo(scrollMagicController);

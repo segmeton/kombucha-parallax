@@ -18,8 +18,8 @@ body
 
 .disable-scroll
 {
-	height: 100%;
-	overflow: hidden;
+/*	height: 100%;
+	overflow: hidden;*/
 }
 
 div.container
@@ -87,7 +87,7 @@ div.introduction span.red
 	padding-right: 50px;
 }
 
-div.fb-like
+div.copyright div.fb-like, div.intro-page div.fb-like
 {
 	position: absolute !important;
 	right: 15px !important;

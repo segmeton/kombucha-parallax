@@ -116,6 +116,18 @@ div.kombucha-benefit img#benefit-title
 	margin-bottom: 5%;
 }
 
+div.kombucha-benefit h1.title
+{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	color: #FCCC49;
+	font-size: 5em;
+	font-weight: bold;
+	line-height: .9em;
+}
+
+
+
 div.kombucha-benefit p
 {
 	font-family: "Signika";

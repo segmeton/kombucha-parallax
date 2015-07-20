@@ -72,6 +72,7 @@ div.modal-footer
 	text-align: left;
 	border-top: none;
 	margin-bottom: 50px;
+	position: relative;
 }
 
 div.modal img#logo
