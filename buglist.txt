@@ -1,12 +1,9 @@
 big 17 Juli
 
--trus tulisan yang MANFAAT MEMINUM KOMBUCHA, bs diganti jd tulisan MANFAAT MINUM TEH KOMBUCHA, tapi buat sama yg kmren.
-
 -bagian dosis minum, bs ga pas kita hover di gelasnya, bubblenya bergerak gt? (optional) 
 
 confirm:
--bagian cara pembuatan, yang poin ke dua, ada typo (semua diulang 2x_)
--bagian manfaat, yang button kuning, pas diklik, isinya jgn caps smua...dibuat biasa aj (misal: Menyembuhkan penyakit).
+
 
 done + confirm :
 -blm ad widget linke fb di bagian intro sma di footer kanan.
@@ -20,6 +17,9 @@ done:
 -tulisan di pink si dosis jdiin semibold aj
 -bagian link (semua) dibuat ke new tab aj jgn di situ bukanya.
 -bagian manfaat kombucha, pas kandungan turun (vitamin b, c,dll) ksi jeda dl bru pas di scroll yg pink (gambar jar dan pnjlsn) muncul. supaya user liat ap dl kandunganny bru bc pnjlsnnya
+-trus tulisan yang MANFAAT MEMINUM KOMBUCHA, bs diganti jd tulisan MANFAAT MINUM TEH KOMBUCHA, tapi buat sama yg kmren.
+-bagian cara pembuatan, yang poin ke dua, ada typo (semua diulang 2x_)
+-bagian manfaat, yang button kuning, pas diklik, isinya jgn caps smua...dibuat biasa aj (misal: Menyembuhkan penyakit).
 
 deadline rabu malam
 - all done
