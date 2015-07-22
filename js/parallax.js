@@ -35,7 +35,7 @@ function menubarParallax()
     var menu = new ScrollMagic.Scene({
         offset: 15,
     })
-    .setTween("div.menu-bar", 1, {opacity: 1})
+    .setTween("div.menu-bar", 1, {opacity: 1, zIndex: 99999})
     .addTo(scrollMagicController );
 }
 

@@ -18,8 +18,8 @@ body
 
 .disable-scroll
 {
-/*	height: 100%;
-	overflow: hidden;*/
+	height: 100%;
+	overflow: hidden;
 }
 
 div.container
